@@ -1,0 +1,5 @@
+.collapse {width:200px;margin:50px;}
+.collapse li {margin-top:-1px;border:1px solid #D9D9D9;}
+.collapse-title {padding:3px 10px;background-color:#F4F4F4;cursor:pointer;}
+.collapse-cnt {display:none;padding:3px 10px;}
+.collapse .open .collapse-cnt{display:block;}

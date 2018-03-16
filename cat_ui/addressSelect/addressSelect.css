@@ -1,0 +1,109 @@
+.addressSelect {
+    padding:15px 20px 5px;
+    border:1px solid #b4b4b4;
+    width: 403px;
+    font-size: 12px;
+    position: relative;
+    background-color: #fff;
+    z-index: 1001;
+}
+.addressSelect .addressSelect_tab {
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+.addressSelect .addressSelect_tab span {
+    cursor: pointer;
+    padding: 0px 15px 10px;
+    color:#333;
+    float: left;
+    border-bottom:2px solid #ddd;
+}
+.addressSelect .addressSelect_tab span:hover, .addressSelect .addressSelect_tab span.on {
+    color:#e63244;
+    border-bottom:2px solid #e63244;
+}
+.addressSelect_tabContent {
+    overflow: hidden;
+    margin-top:-1px;
+    z-index: 1;
+    display: none;
+}
+.addressSelect dl.list {
+    overflow: hidden;
+    position: relative;
+    border-top:1px dotted #bbb;
+    padding:8px 5px 8px 58px;
+}
+.addressSelect dl.list dt {
+    position: absolute;
+    top:11px;
+    left:10px;
+    color:#e63244;
+    font-size: 12px;
+}
+.addressSelect dl.list dd {
+    float: left;
+    width: 67px;
+    padding:3px 9px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.addressSelect dl.list dd:hover {
+    background-color: #fc727f;
+    color:#fff;
+}
+.addressSelect dl.list dd.select {
+    width: 95px;
+}
+.addressSelect_area {
+    padding: 10px 0;
+}
+.addressSelect_area .back {
+    display: inline-block;
+    padding:3px 39px 3px 9px;
+    background-color: #fc727f;
+    color:#fff;
+    position: relative;
+    margin-bottom:5px;
+    cursor: pointer;
+}
+.addressSelect_area .back i {
+    position: absolute;
+    font-size: 18px;
+    font-style: normal;
+    top:-2px;
+    right:5px;
+}
+.addressSelect_area .area_list {
+    overflow: hidden;
+}
+.addressSelect_area .area_list span {
+    float: left;
+    width: 60px;
+    padding:3px 9px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.addressSelect_area .area_list span:hover {
+    background-color: #fc727f;
+    color:#fff;
+}
+.addressSelect_list {
+    display: none;
+    max-height: 300px;
+    overflow: auto;
+    margin: -15px -20px -5px;
+}
+.addressSelect_list li {
+    padding: 5px 10px;
+    color:#333;
+}
+.addressSelect_list li.checked {
+    background-color: #fc727f;
+    color:#fff;
+}

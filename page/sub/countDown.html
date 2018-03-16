@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>组件</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<input type="hidden" value="1" id="CatUI_nav" />
+	<input type="hidden" value="3" id="CatUI_sub_nav" />
+
+	<div class="header">
+		<script src="../js/header.js"></script>
+	</div>
+
+	<div class="main_wrapper">
+		<div class="aside_container">
+			<script src="../js/sub_list.js"></script>
+		</div>
+		<div class="main_container">
+			<div class="markdown">
+				<h1>CountDown 倒计时</h1>
+				<p>用于倒计时功能，可自定义数字倒计时以及时间倒计时。</p>
+
+				<h2>何时使用</h2>
+				<p>当页面需要倒计时触发事件的时候，可以使用countDown在当面页面初始化，计时结束绑定回调函数</p>
+
+				<a href="../../cat_ui/countDown/demo.html" target="_blank" class="btn_demo">演示 Demo</a>
+
+				<h2>Parameter</h2>
+				<table>
+					<thead>
+					<tr>
+						<th>参数</th>
+						<th>说明</th>
+						<th>默认值</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>container</td>
+						<td>所要绑定的DOM节点</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>countDownSeconds</td>
+						<td>倒计时的总时间</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td>doubleDigit</td>
+						<td>十以内显示为‘07’或‘7’，可选参数 <code>true</code> <code>false</code></td>
+						<td>true</td>
+					</tr>
+					<tr>
+						<td>secondsOnly</td>
+						<td>可选参数 <code>true</code> 为数字倒计时， <code>false</code> 为时间倒计时</td>
+						<td>false</td>
+					</tr>
+					<tr>
+						<td>callback</td>
+						<td>倒计时结束后的回调函数</td>
+						<td>--</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+	<script src="../js/common.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+.btns {
+  display: inline-block;
+  width: 158px;
+  font-size: 18px;
+  margin-bottom: 0;
+  line-height: 48px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #c7181e;
+  background-color: #c7181e;
+}
+.btns:hover {
+  text-decoration: none;
+  border: 1px solid #e6292f;
+  background-color: #e6292f;
+}
+.btns_info {
+  color: #fc383e;
+  border: 1px solid #fc383e;
+  background-color: #fff;
+}
+.btns_info:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #fc383e;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>组件</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<input type="hidden" value="1" id="CatUI_nav" />
+	<input type="hidden" value="6" id="CatUI_sub_nav" />
+
+	<div class="header">
+		<script src="../js/header.js"></script>
+	</div>
+
+	<div class="main_wrapper">
+		<div class="aside_container">
+			<script src="../js/sub_list.js"></script>
+		</div>
+		<div class="main_container">
+			<div class="markdown">
+				<h1>Carousel 轮播滚动</h1>
+				<p>用于轮播功能，可自定义大小,按钮样式,底部文字,滚动方向和事件。</p>
+
+				<h2>何时使用</h2>
+				<p>当页面需要轮播滚动广告时候使用</p>
+
+				<a href="../../cat_ui/carousel/demo.html" target="_blank" class="btn_demo">演示 Demo</a>
+
+				<h2>Parameter</h2>
+				<table>
+					<thead>
+					<tr>
+						<th>参数</th>
+						<th>说明</th>
+						<th>默认值</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>width</td>
+						<td>carousel区域宽度</td>
+						<td>100%</td>
+					</tr>
+					<tr>
+						<td>height</td>
+						<td>carousel区域高度</td>
+						<td>300px</td>
+					</tr>
+					<tr>
+						<td>direction</td>
+						<td>滚动方向，可选参数 <code>left</code> <code>right</code> <code>top</code> <code>bottom</code></td>
+						<td>left</td>
+					</tr>
+					<tr>
+						<td>duration</td>
+						<td>滚动持续时间，单位：秒</td>
+						<td>0.6</td>
+					</tr>
+					<tr>
+						<td>delay</td>
+						<td>滚动延迟时间，单位：秒</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>startIndex</td>
+						<td>初始从第几张图开始滚动</td>
+						<td>0(第一张图)</td>
+					</tr>
+					<tr>
+						<td>clickBarSize</td>
+						<td>切换按钮大小</td>
+						<td>14</td>
+					</tr>
+					<tr>
+						<td>clickBarRadius</td>
+						<td>切换按钮圆角角度,0:正方形,10:圆形 0-10</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<td>clickBarPosition</td>
+						<td>切换按钮位置</td>
+						<td>0(最右边)</td>
+					</tr>
+					<tr>
+						<td>hideBottomBar</td>
+						<td>是否隐藏底部文字栏,可选参数 <code>true</code>隐藏 <code>false</code>不隐藏</td>
+						<td>false</td>
+					</tr>
+					<tr>
+						<td>eventType</td>
+						<td>小按钮切换事件,可选参数 <code>mouseover</code>移入<code>click</code>点击</td>
+						<td>mouseover</td>
+					</tr>
+					<tr>
+						<td>hideBottomNums</td>
+						<td>是否隐藏切换小按钮 <code>true</code>隐藏<code>false</code>不隐藏</td>
+						<td>false</td>
+					</tr>
+					<tr>
+						<td>hideleftright</td>
+						<td>是否隐藏左右按钮 <code>true</code>隐藏<code>false</code>不隐藏</td>
+						<td>false</td>
+					</tr>
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+	<script src="../js/common.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+
+
+/* 新增easyuit图标 */
+
+/* 补票 */
+.icon-easyui-addBill{
+	background:url('img/iconEasyui_addBill.png') no-repeat center center;
+}
+
+/* 补款 */
+.icon-easyui-addFund{
+	background:url('img/iconEasyui_addFund.png') no-repeat center center;
+}
+
+/* 封盘 */
+.icon-easyui-adjourn{
+	background:url('img/iconEasyui_adjourn.png') no-repeat center center;
+}
+
+/* 审核 */
+.icon-easyui-audit{
+	background:url('img/iconEasyui_audit.png') no-repeat center center;
+}
+
+/* 开票 */
+.icon-easyui-bill{
+	background:url('img/iconEasyui_bill.png') no-repeat center center;
+}
+
+/* 绑定 */
+.icon-easyui-bind{
+	background:url('img/iconEasyui_bind.png') no-repeat center center;
+}
+
+/* 详情 */
+.icon-easyui-detail{
+	background:url('img/iconEasyui_detail.png') no-repeat center center;
+}
+
+/* 下载 */
+.icon-easyui-download{
+	background:url('img/iconEasyui_download.png') no-repeat center center;
+}
+
+/* 缩小 */
+.icon-easyui-dwindle{
+	background:url('img/iconEasyui_dwindle.png') no-repeat center center;
+}
+
+/* 放大 */
+.icon-easyui-enlarge{
+	background:url('img/iconEasyui_enlarge.png') no-repeat center center;
+}
+
+/* 导出 */
+.icon-easyui-export{
+	background:url('img/iconEasyui_export.png') no-repeat center center;
+}
+
+/* 导入 */
+.icon-easyui-import{
+	background:url('img/iconEasyui_import.png') no-repeat center center;
+}
+
+/* 开盘 */
+.icon-easyui-open{
+	background:url('img/iconEasyui_open.png') no-repeat center center;
+}
+
+/* 下单 */
+.icon-easyui-order{
+	background:url('img/iconEasyui_order.png') no-repeat center center;
+}
+
+/* 付款 */
+.icon-easyui-payRefund{
+	background:url('img/iconEasyui_payRefund.png') no-repeat center center;
+}
+
+/* 打印 */
+.icon-easyui-print{
+	background:url('img/iconEasyui_print.png') no-repeat center center;
+}
+
+/* 退款 */
+.icon-easyui-refund{
+	background:url('img/iconEasyui_refund.png') no-repeat center center;
+}
+
+/* 驳回 */
+.icon-easyui-reject{
+	background:url('img/iconEasyui_reject.png') no-repeat center center;
+}
+
+/* 保存 */
+.icon-easyui-save{
+	background:url('img/iconEasyui_save.png') no-repeat center center;
+}
+
+/* 截图 */
+.icon-easyui-screenshot{
+	background:url('img/iconEasyui_screenshot.png') no-repeat center center;
+}
+
+/* 结算 */
+.icon-easyui-settlement{
+	background:url('img/iconEasyui_settlement.png') no-repeat center center;
+}
+
+/* 上架 */
+.icon-easyui-shelve{
+	background:url('img/iconEasyui_shelve.png') no-repeat center center;
+}
+
+/* 解除绑定 */
+.icon-easyui-unbind{
+	background:url('img/iconEasyui_unbind.png') no-repeat center center;
+}
+
+/* 下架 */
+.icon-easyui-unshelve{
+	background:url('img/iconEasyui_unshelve.png') no-repeat center center;
+}
+
+/* 上传 */
+.icon-easyui-upload{
+	background:url('img/iconEasyui_upload.png') no-repeat center center;
+}
+
+/* 短信 */
+.icon-easyui-message{
+	background:url('img/iconEasyui_message.png') no-repeat center center;
+}
+
+
+
+
+.icon-easyui {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+
+
+

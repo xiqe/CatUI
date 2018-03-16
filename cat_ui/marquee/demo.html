@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>marquee</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+		body {
+			font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+			font-size: 12px;
+			color: #333333;
+			background-color: #fff;
+		}
+		ul {
+			list-style: none;
+		}
+
+
+		.list_top {
+			height: 100px;
+			width: 300px;
+			overflow: hidden;
+			border:1px solid #f00;
+		}
+		.list_top li {
+			height: 16px;
+			line-height: 16px;
+		}
+
+		.list_top2 {
+			height: 258px;
+			width: 147px;
+			overflow: hidden;
+			border:1px solid #f00;
+		}
+		.list_top2 li {
+			width: 147px;
+			height: 43px;
+			text-align: center;
+			padding:10px 0;
+		}
+
+
+		.list_left {
+			width: 600px;
+			overflow: hidden;
+			border:1px solid #f00;
+		}
+		.list_left li {
+			padding:20px 0;
+			float: left;
+			width: 147px;
+			text-align: center;
+		}
+	</style>
+	
+</head>
+<body>
+	TOP:
+	<div class="list_top">
+		<ul>
+			<li>这是向上滚动的效果这是向上滚动的效果1</li>
+			<li>这是向上滚动的效果这是向上滚动的效果2</li>
+			<li>这是向上滚动的效果这是向上滚动的效果3</li>
+			<li>这是向上滚动的效果这是向上滚动的效果4</li>
+			<li>这是向上滚动的效果这是向上滚动的效果5</li>
+			<li>这是向上滚动的效果这是向上滚动的效果6</li>
+			<li>这是向上滚动的效果这是向上滚动的效果7</li>
+			<li>这是向上滚动的效果这是向上滚动的效果8</li>
+		</ul>
+	</div>
+
+	<br /><br /><br />
+
+	<div class="list_top2">
+		<ul>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/xiwang.png"><br />西王</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/angang.png"><br />鞍钢</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/xiwang.png"><br />西王</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/angang.png"><br />鞍钢</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/xiwang.png"><br />西王</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/angang.png"><br />鞍钢</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/xiwang.png"><br />西王</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/angang.png"><br />鞍钢</li>
+		</ul>
+	</div>
+
+	<br /><br /><br />
+
+	LEFT:
+	<div class="list_left">
+		<ul>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/xiwang.png"><br />西王</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/angang.png"><br />鞍钢</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/xiwang.png"><br />西王</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/angang.png"><br />鞍钢</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/xiwang.png"><br />西王</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/angang.png"><br />鞍钢</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/xiwang.png"><br />西王</li>
+			<li><img src="http://img.zhaogang.com/mallhome/images/factory/angang.png"><br />鞍钢</li>
+		</ul>
+	</div>
+
+
+	<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+	<script src="marquee.js"></script>
+
+	<script>
+		$(function(){
+			$('.list_top').marquee({
+				speed: 30
+			});
+
+			$('.list_top2').marquee({
+				speed: 30
+			});
+
+			$('.list_left').marquee({
+				speed: 20,
+				dir:'left'
+			});
+		})
+	</script>
+
+</body>
+</html>

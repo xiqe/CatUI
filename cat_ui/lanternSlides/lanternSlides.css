@@ -1,0 +1,93 @@
+.lanternSlides_mask {
+    display: block;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    z-index: 100;
+}
+.lanternSlides_slide {
+    display: block;
+    position: fixed;
+    z-index: 101;
+    top:50%;
+    left:50%;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.lanternSlides_slide .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: block;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+    font-size: 40px;
+    color: #ccc;
+    z-index: 10;
+    text-decoration: none;
+    font-family: Tahoma;
+}
+.lanternSlides_slide .close:hover {
+    color:#999;
+}
+.lanternSlides_slide .tit {
+    color:#000;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 60px 0;
+    margin: 0 auto 20px;
+    height: 30px;
+    overflow: hidden;
+}
+.lanternSlides_slide .count {
+    float: right;
+    font-size: 16px;
+    line-height: 30px;
+    color:#a0a0a0;
+}
+.lanternSlides_slide .count i {
+    font-style: normal;
+}
+.lanternSlides_slide .count i.cur {
+    font-size: 24px;
+    color:#c8171d;
+}
+.lanternSlides_slide img {
+    display: inline-block;
+    width: 795px;
+    height: 540px;
+    margin:0 auto;
+}
+.lanternSlides_slide .prev {
+    display: block;
+    width: 38px;
+    height: 64px;
+    background: url(img/honor_prev.jpg) no-repeat;
+    position: absolute;
+    left:4px;
+    top:50%;
+}
+.lanternSlides_slide .prev:hover {
+    background: url(img/honor_prev_hover.jpg) no-repeat;
+}
+.lanternSlides_slide .next {
+    display: block;
+    width: 38px;
+    height: 64px;
+    background: url(img/honor_next.jpg) no-repeat;
+    position: absolute;
+    right:4px;
+    top:50%;
+}
+.lanternSlides_slide .next:hover {
+    background: url(img/honor_next_hover.jpg) no-repeat;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>animation</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../../cat_ui/animation/animation.css">
+
+	<style>
+		html {font-size: 62.5%;}
+		h3 {
+			font-size: 1.8rem;
+			margin:0 auto 10px;
+			color:#600;
+		}
+
+		h4 {
+			font-size: 1.8rem;
+			font-weight: normal;
+			color:#666;
+			vertical-align: baseline;
+			display: inline-block;
+			margin:0 auto;
+			position:relative;
+		}
+
+		p {
+			text-align: center;
+			color:#999;
+			font-size: 1.4rem;
+			padding:10px 0;
+		}
+
+
+		.list_box {
+			overflow: hidden;
+		}
+		.list_box li {
+			list-style: none;
+			float:left;
+			width: 240px;
+			margin: 0 10px 10px 0;
+		}
+		.list_box li .box {
+			border: 1px solid #ccc;
+			height: 158px;
+			line-height: 158px;
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+		}
+
+		.list_box li .tit {
+			position: absolute;
+			width: 360px;
+			height: 210px;
+			line-height: 40px;
+			padding-top: 150px;
+			background: rgba(51,51,51,0.9);
+			border-radius: 240px;
+			color:#fff;
+			font-size: 2.4rem;
+			top:-100px;
+			left: -60px;
+			z-index: 10;
+			-webkit-animation:0.8s 0.1s liner forwards;
+			-webkit-animation-name: ani_mask_h;
+		}
+		.list_box li .box:hover .tit {
+			-webkit-animation:0.8s 0.1s liner forwards;
+			-webkit-animation-name: ani_mask;
+		}
+		@-webkit-keyframes ani_mask {
+			0% {-webkit-transform:scale(1);  opacity: 0.95;}
+			100% {-webkit-transform:scale(0); opacity: 0;}
+		}
+		@-webkit-keyframes ani_mask_h {
+			0% {-webkit-transform:scale(0); opacity: 0;}
+			100% {-webkit-transform:scale(1); opacity: 0.95;}
+		}
+		.list_box li .tit span {
+			display: block;
+			font-size: 1.4rem;
+		}
+	</style>
+
+</head>
+<body>
+	<input type="hidden" value="1" id="CatUI_nav" />
+	<input type="hidden" value="20" id="CatUI_sub_nav" />
+
+	<div class="header">
+		<script src="../js/header.js"></script>
+	</div>
+
+	<div class="main_wrapper">
+		<div class="aside_container">
+			<script src="../js/sub_list.js"></script>
+		</div>
+		<div class="main_container">
+			<div class="markdown">
+				<h1>Animation 动效库</h1>
+				<ul class="list_box layoutfix">
+					<li>
+						<div class="box" data-val="animation_fadeIn">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">淡入<span>class=" animation_fadeIn "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_fadeOut">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">淡出<span>class=" animation_fadeOut "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_shake">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">抖动<span>class=" animation_shake "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_elasticity">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">弹性<span>class=" animation_elasticity "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_rotateDefault">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">普通旋转<span>class=" animation_rotateDefault "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_rotateShow">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">旋转出现/消失<span>class=" animation_rotateShow "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_rotateX">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">X轴翻转<span>class=" animation_rotateX "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_rotateY">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">Y轴翻转<span>class=" animation_rotateY "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_rotateDoor">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">开门式<span>class=" animation_rotateDoor "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_rotate360">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">全方位翻转<span>class=" animation_rotate360 "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_fadeUp">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">上方移入<span>class=" animation_fadeUp "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_fadeDown">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">下方移入<span>class=" animation_fadeDown "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_fadeLeft">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">左方移入<span>class=" animation_fadeLeft "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_fadeRight">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">右方移入<span>class=" animation_fadeRight "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_drawLeft">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">左侧划入<span>class=" animation_drawLeft "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_drawRight">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">右侧划入<span>class=" animation_drawRight "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_drawUpout">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">上方划出<span>class=" animation_drawUpout "</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="box" data-val="animation_drawDownout">
+							<h4>ZhaoGang.Com</h4>
+							<div class="tit">下方划出<span>class=" animation_drawDownout "</span></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+	  	</div>
+  	</div>
+	<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+	<script src="../js/common.js"></script>
+
+	<script tpye="text/javascript">
+		$(function(){
+			$('.box').mouseenter(function(){
+				var _class = $(this).attr('data-val');
+				$(this).addClass('on').find('h4').addClass(_class);
+			}).mouseleave(function(){
+				$(this).removeClass('on').find('h4').attr("class","");
+			})
+		})
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>numFormat</title>
+</head>
+<body>
+
+<div>金额：<span class="test3"></span></div>
+<div>金额（不带金额符号）：<span class="test4"></span></div>
+<div>金额（万）：<span class="test8"></span></div>
+<div>金额（汉字书写）：<span class="test6"></span></div>
+<div>金额（无格式化）：<span class="test5"></span></div>
+<div>时间（时分秒）：<span class="test7"></span></div>
+<div>百分比：<span class="test1"></span></div>
+<div>百分比（不带百分号）：<span class="test2"></span></div>
+<div>百分比（进度小数位）：<span class="test9"></span></div>
+<div>百分比（进度整数位）：<span class="test10"></span></div>
+<div>手机号：<span class="test11"></span></div>
+<div>身份证：<span class="test12"></span></div>
+<div>银行卡号：<span class="test13"></span></div>
+
+
+
+
+
+
+<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="numFormat.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('.test1').html(numFormat.percentageFormat("1.0158"));
+        $('.test2').html(numFormat.withoutPercentageFormat("1.0158"));
+        $('.test3').html(numFormat.numberFormat("12300000.15"));
+        $('.test4').html(numFormat.numberFormatWithoutCurrency("12300000.15"));
+        $('.test5').html(numFormat.round("12300000.156"));
+        $('.test6').html(numFormat.convertCurrency("12300000.15"));
+        $('.test7').html(numFormat.secondsOfTrading("6666"));
+        $('.test8').html(numFormat.numberFormatTenThousand("12300000.15"));
+        $('.test9').html(numFormat.percentageFormatWithoutZero("0.2323"));
+        $('.test10').html(numFormat.progressFormat("0.232309"));
+        $('.test11').html(numFormat.telFormat("13498576475"));
+        $('.test12').html(numFormat.idFormat("310113198711253647"));
+        $('.test13').html(numFormat.bankCardFormat("6226091312225413"));
+
+    });
+</script>
+</body>
+</html>

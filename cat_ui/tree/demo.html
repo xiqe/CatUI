@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tree</title>
+    <link rel="stylesheet" href="tree.css">
+</head>
+<body>
+
+<!--/ 树形结构-->
+<div class="catTree" id="tree">
+    <ul>
+        <li>
+            <s></s><a href="javascript:void(0)">父集1</a><a href="javascript:void(0)">父集1</a><a href="javascript:void(0)">父集1</a><a href="javascript:void(0)">父集1</a><a href="javascript:void(0)">父集1</a><a href="javascript:void(0)">父集1</a><a href="javascript:void(0)">父集1</a><a href="javascript:void(0)">父集1</a><a href="javascript:void(0)">父集1</a><a href="javascript:void(0)">父集1</a><a href="javascript:void(0)">父集1</a><a href="javascript:void(0)">父集1</a><a href="javascript:void(0)">父集1</a>
+            <ul>
+                <li>
+                    <s></s><a href="javascript:void(0)">子集1-1</a>
+                    <ul>
+                        <li>
+                            <s></s><a href="javascript:void(0)">子集1-1-1</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <s></s><a href="javascript:void(0)">子集1-2</a>
+                    <ul>
+                        <li>
+                            <s></s> <a href="javascript:void(0)">子集1-2-1</a>
+                        </li>
+                        <li>
+                            <s></s><a href="javascript:void(0)">子集1-2-2</a>
+                            <ul>
+                                <li>
+                                    <s></s><a href="javascript:void(0)">子集1-2-2-1</a>
+                                    <ul>
+                                        <li>
+                                            <s></s><a href="javascript:void(0)">子集1-2-2-1-1</a>
+                                        </li>
+                                        <li>
+                                            <s></s><a href="javascript:void(0)">子集1-2-2-1-2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <s></s><a href="javascript:void(0)">子集1-2-2-2</a>
+                                </li>
+                                <li>
+                                    <s></s><a href="javascript:void(0)">子集1-2-2-3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <s></s><a href="javascript:void(0)">子集1-2-3</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+
+        <li>
+            <s></s><a href="javascript:void(0)">父集2</a>
+            <ul>
+                <li>
+                    <s></s><a href="javascript:void(0)">父集2-1</a>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <s></s><a href="javascript:void(0)">父集3</a>
+            <ul>
+                <li>
+                    <s></s><a href="javascript:void(0)">父集3-1</a>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <s></s><a href="javascript:void(0)">父集4</a>
+            <ul>
+                <li>
+                    <s></s><a href="javascript:void(0)">父集4-1</a>
+                </li>
+            </ul>
+        </li>
+
+    </ul>
+</div>
+<!-- 树形结构 / -->
+
+
+
+<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+<script src="tree.js"></script>
+<script>
+    $(function(){
+        $("#tree").catTree({
+            hideCheckbox:false,
+            showSon:true
+        })
+    })
+</script>
+</body>
+</html>

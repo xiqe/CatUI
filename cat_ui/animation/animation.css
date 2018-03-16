@@ -1,0 +1,213 @@
+.animation_fadeIn {
+	-webkit-transform:scale(0);
+	-webkit-animation:2.5s 0.5s ease infinite;
+	-webkit-animation-name: ani_fadeIn;
+}
+@-webkit-keyframes ani_fadeIn {
+    5% {-webkit-transform:scale(0)}
+    30% {-webkit-transform:scale(1.2)}
+    35% {-webkit-transform:scale(0.8)}
+    40% {-webkit-transform:scale(1)}
+    100% {-webkit-transform:scale(1)}
+}
+
+.animation_fadeOut {
+	-webkit-transform:scale(1);
+	-webkit-animation:3s 0.5s ease infinite;
+	-webkit-animation-name: ani_fadeOut;
+}
+@-webkit-keyframes ani_fadeOut {
+	20% {-webkit-transform:scale(1)}
+    25% {-webkit-transform:scale(1.5)}
+    30% {-webkit-transform:scale(0.8)}
+    35% {-webkit-transform:scale(1.4)}
+    80% {-webkit-transform:scale(0)}
+    100% {-webkit-transform:scale(0); opacity: 0;}
+}
+
+.animation_shake {
+	-webkit-transform:translate(0,0);
+	-webkit-animation:2s 0.5s ease infinite;
+	-webkit-animation-name: ani_shake;
+}
+@-webkit-keyframes ani_shake {
+	0% {-webkit-transform:translate(0,0)}
+	3% {-webkit-transform:translate(15px,0)}
+	6% {-webkit-transform:translate(-15px,0)}
+	9% {-webkit-transform:translate(15px,0)}
+	12% {-webkit-transform:translate(-15px,0)}
+	15% {-webkit-transform:translate(15px,0)}
+	18% {-webkit-transform:translate(-15px,0)}
+	20% {-webkit-transform:translate(0,0)}
+    100% {-webkit-transform:translate(0,0)}
+}
+
+.animation_elasticity {
+	-webkit-transform:scale(1,1);
+	-webkit-animation:2s 0.5s ease infinite;
+	-webkit-animation-name: ani_elasticity;
+}
+@-webkit-keyframes ani_elasticity {
+	0% {-webkit-transform:scale(1,1)}
+	17% {-webkit-transform:scale(1.5,0.6)}
+	25% {-webkit-transform:scale(0.9,1.1)}
+	30% {-webkit-transform:scale(1.3,0.8)}
+	33% {-webkit-transform:scale(1,1)}
+    100% {-webkit-transform:scale(1,1)}
+}
+
+.animation_rotateDefault {
+	-webkit-transform:rotate(0deg);
+	-webkit-animation:3s 0.5s ease infinite;
+	-webkit-animation-name: ani_rotateDefault;
+}
+@-webkit-keyframes ani_rotateDefault {
+	0% {-webkit-transform:rotate(0deg)}
+    50% {-webkit-transform:rotate(-720deg)}
+    100% {-webkit-transform:rotate(0deg)}
+}
+
+.animation_rotateShow {
+	-webkit-transform:rotate(0deg) scale(0);
+	-webkit-animation:3s 0.5s ease infinite;
+	-webkit-animation-name: ani_rotateShow;
+}
+@-webkit-keyframes ani_rotateShow {
+	0% {-webkit-transform:rotate(0deg) scale(0)}
+    50% {-webkit-transform:rotate(-360deg) scale(1)}
+    100% {-webkit-transform:rotate(-720deg) scale(0)}
+}
+
+.animation_rotateX {
+	-webkit-transform:perspective(400px) rotateX(-90deg);
+	-webkit-animation:1.8s 0.5s ease infinite;
+	-webkit-animation-name: ani_rotateX;
+}
+@-webkit-keyframes ani_rotateX {
+	0% {-webkit-transform:perspective(400px) rotateX(-90deg)}
+    30% {-webkit-transform:perspective(400px) rotateX(30deg)}
+    35% {-webkit-transform:perspective(400px) rotateX(-30deg)}
+    40% {-webkit-transform:perspective(400px) rotateX(10deg)}
+    45% {-webkit-transform:perspective(400px) rotateX(-10deg)}
+    50% {-webkit-transform:perspective(400px) rotateX(0deg)}
+   	100% {-webkit-transform:perspective(400px) rotateX(0deg)}
+}
+
+.animation_rotateY {
+	-webkit-transform:perspective(400px) rotateY(-90deg);
+	-webkit-animation:1.8s 0.5s ease infinite;
+	-webkit-animation-name: ani_rotateY;
+}
+@-webkit-keyframes ani_rotateY {
+	0% {-webkit-transform:perspective(400px) rotateY(-90deg)}
+    30% {-webkit-transform:perspective(400px) rotateY(30deg)}
+    40% {-webkit-transform:perspective(400px) rotateY(-30deg)}
+    50% {-webkit-transform:perspective(400px) rotateY(10deg)}
+    60% {-webkit-transform:perspective(400px) rotateY(-10deg)}
+    70% {-webkit-transform:perspective(400px) rotateY(0deg)}
+   	100% {-webkit-transform:perspective(400px) rotateY(0deg)}
+}
+
+.animation_rotateDoor {
+	-webkit-transform:rotateY(0deg);
+	-webkit-transform-origin: 100% 0%;
+	-webkit-animation:2s 0.5s ease infinite;
+	-webkit-animation-name: ani_rotateDoor;
+}
+@-webkit-keyframes ani_rotateDoor {
+	0% {-webkit-transform:rotateY(0deg)}
+	50% {-webkit-transform:rotateY(120deg)}
+    100% {-webkit-transform:rotateY(0deg)}
+}
+
+.animation_rotate360 {
+	-webkit-animation: 2s 0.5s ease infinite;
+	-webkit-animation-name: ani_rotate360;
+}
+@-webkit-keyframes ani_rotate360 {
+	0% { -webkit-transform: perspective(400px) }
+	25% { -webkit-transform: perspective(400px) rotateY(180deg) }
+	50% { -webkit-transform: perspective(400px) rotateY(180deg)  rotateX(180deg) }
+	75% { -webkit-transform: perspective(400px) rotateY(360deg)  rotateX(180deg) }
+	100% { -webkit-transform: perspective(400px) rotateY(360deg)  rotateX(360deg) }
+}
+
+.animation_fadeUp {
+	-webkit-animation:2s 0.5s ease infinite;
+	-webkit-animation-name: ani_fadeUp;
+}
+@-webkit-keyframes ani_fadeUp {
+    0% {-webkit-transform:translate(0,-50px); opacity: 0;}
+    50% {-webkit-transform:translate(0,0); opacity: 1;}
+}
+
+.animation_fadeDown {
+	-webkit-animation:2s 0.5s ease infinite;
+	-webkit-animation-name: ani_fadeDown;
+}
+@-webkit-keyframes ani_fadeDown {
+    0% {-webkit-transform:translate(0,50px); opacity: 0;}
+    50% {-webkit-transform:translate(0,0); opacity: 1;}
+}
+
+.animation_fadeLeft {
+	-webkit-animation:2s 0.5s ease infinite;
+	-webkit-animation-name: ani_fadeLeft;
+}
+@-webkit-keyframes ani_fadeLeft {
+    0% {-webkit-transform:translate(-50px,0); opacity: 0;}
+    50% {-webkit-transform:translate(0,0); opacity: 1;}
+}
+
+.animation_fadeRight {
+	-webkit-animation:2s 0.5s ease infinite;
+	-webkit-animation-name: ani_fadeRight;
+}
+@-webkit-keyframes ani_fadeRight {
+    0% {-webkit-transform:translate(50px,0); opacity: 0;}
+    50% {-webkit-transform:translate(0,0); opacity: 1;}
+}
+
+.animation_drawLeft {
+	-webkit-animation:2s 0.5s ease infinite;
+	-webkit-animation-name: ani_drawLeft;
+}
+@-webkit-keyframes ani_drawLeft {
+    0% {-webkit-transform:translate(-1000px,0)}
+    35% {-webkit-transform:translate(30px,0)}
+    38% {-webkit-transform:translate(-20px,0)}
+    40% {-webkit-transform:translate(0,0)}
+}
+
+.animation_drawRight {
+	-webkit-animation:2s 0.5s ease infinite;
+	-webkit-animation-name: ani_drawRight;
+}
+@-webkit-keyframes ani_drawRight {
+    0% {-webkit-transform:translate(1000px,0)}
+    35% {-webkit-transform:translate(-30px,0)}
+    38% {-webkit-transform:translate(20px,0)}
+    40% {-webkit-transform:translate(0,0)}
+}
+
+.animation_drawUpout {
+	-webkit-transform:translate(0,0);
+	-webkit-animation:1s 0.5s ease infinite;
+	-webkit-animation-name: ani_drawUpout;
+}
+@-webkit-keyframes ani_drawUpout {
+    0% {-webkit-transform:translate(0,0)}
+    20% {-webkit-transform:translate(0,0)}
+    100% {-webkit-transform:translate(0,-1000px)}
+}
+
+.animation_drawDownout {
+	-webkit-transform:translate(0,0);
+	-webkit-animation:2s 0.5s ease infinite;
+	-webkit-animation-name: ani_drawDownout;
+}
+@-webkit-keyframes ani_drawDownout {
+    0% {-webkit-transform:translate(0,0)}
+    20% {-webkit-transform:translate(0,0)}
+    100% {-webkit-transform:translate(0,1000px)}
+}

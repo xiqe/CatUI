@@ -1,0 +1,673 @@
+/* 8*8 */
+.icon_subtag_8white,.icon_close_8white,.icon_drop_8white,.icon_rise_8white,.icon_subcorrect_8white,.icon_correct_8white,
+.icon_subtag_8greyl,.icon_close_8greyl,.icon_drop_8greyl,.icon_rise_8greyl,.icon_subcorrect_8greyl,.icon_correct_8greyl,
+.icon_subtag_8greyd,.icon_close_8greyd,.icon_drop_8greyd,.icon_rise_8greyd,.icon_subcorrect_8greyd,.icon_correct_8greyd,
+.icon_subtag_8blue,.icon_close_8blue,.icon_drop_8blue,.icon_rise_8blue,.icon_subcorrect_8blue,.icon_correct_8blue,
+.icon_subtag_8red,.icon_close_8red,.icon_drop_8red,.icon_rise_8red,.icon_subcorrect_8red,.icon_correct_8red {
+	display:inline-block;
+  width:8px;
+  height:8px;
+	background:url(img/icon.png) no-repeat 0 0;
+	vertical-align: middle;
+}
+/* 8*8 白 */
+.icon_subtag_8white {background-position:0 0;}
+.icon_close_8white {background-position:-10px 0;}
+.icon_drop_8white {background-position:-20px 0;}
+.icon_rise_8white {background-position:-30px 0;}
+.icon_subcorrect_8white {background-position:-40px 0;}
+.icon_correct_8white {background-position:-50px 0;}
+/* 8*8 浅灰 */
+.icon_subtag_8greyl {background-position:0 -10px;}
+.icon_close_8greyl {background-position:-10px -10px;}
+.icon_drop_8greyl {background-position:-20px -10px;}
+.icon_rise_8greyl {background-position:-30px -10px;}
+.icon_subcorrect_8greyl {background-position:-40px -10px;}
+.icon_correct_8greyl {background-position:-50px -10px;}
+/* 8*8 深灰 */
+.icon_subtag_8greyd {background-position:0 -20px;}
+.icon_close_8greyd {background-position:-10px -20px;}
+.icon_drop_8greyd {background-position:-20px -20px;}
+.icon_rise_8greyd {background-position:-30px -20px;}
+.icon_subcorrect_8greyd {background-position:-40px -20px;}
+.icon_correct_8greyd {background-position:-50px -20px;}
+/* 8*8 蓝 */
+.icon_subtag_8blue {background-position:0 -30px;}
+.icon_close_8blue {background-position:-10px -30px;}
+.icon_drop_8blue {background-position:-20px -30px;}
+.icon_rise_8blue {background-position:-30px -30px;}
+.icon_subcorrect_8blue {background-position:-40px -30px;}
+.icon_correct_8blue {background-position:-50px -30px;}
+/* 8*8 红 */
+.icon_subtag_8red {background-position:0 -40px;}
+.icon_close_8red {background-position:-10px -40px;}
+.icon_drop_8red {background-position:-20px -40px;}
+.icon_rise_8red {background-position:-30px -40px;}
+.icon_subcorrect_8red {background-position:-40px -40px;}
+.icon_correct_8red {background-position:-50px -40px;}
+
+/* 12*12 */
+.icon_home_12white,.icon_plus_12white,.icon_minus_12white,.icon_right_12white,.icon_left_12white,.icon_up_12white,.icon_down_12white,.icon_del_12white,.icon_fresh_12white,.icon_search_12white,.icon_close_12white,.icon_warn_12white,.icon_warn2_12white,.icon_erro_12white,.icon_erro2_12white,.icon_success_12white,.icon_success2_12white,.icon_correct_12white,.icon_fall_12white,.icon_asce_12white,.icon_calendar_12white,.icon_me_12white,.icon_like_12white,.icon_like2_12white,.icon_tel_12white,.icon_shop_12white,.icon_phone_12white,.icon_star_12white,.icon_star2_12white,
+.icon_home_12greyl,.icon_plus_12greyl,.icon_minus_12greyl,.icon_right_12greyl,.icon_left_12greyl,.icon_up_12greyl,.icon_down_12greyl,.icon_del_12greyl,.icon_fresh_12greyl,.icon_search_12greyl,.icon_close_12greyl,.icon_warn_12greyl,.icon_warn2_12greyl,.icon_erro_12greyl,.icon_erro2_12greyl,.icon_success_12greyl,.icon_success2_12greyl,.icon_correct_12greyl,.icon_fall_12greyl,.icon_asce_12greyl,.icon_calendar_12greyl,.icon_me_12greyl,.icon_like_12greyl,.icon_like2_12greyl,.icon_tel_12greyl,.icon_shop_12greyl,.icon_phone_12greyl,.icon_star_12greyl,.icon_star2_12greyl,
+.icon_home_12greyd,.icon_plus_12greyd,.icon_minus_12greyd,.icon_right_12greyd,.icon_left_12greyd,.icon_up_12greyd,.icon_down_12greyd,.icon_del_12greyd,.icon_fresh_12greyd,.icon_search_12greyd,.icon_close_12greyd,.icon_warn_12greyd,.icon_warn2_12greyd,.icon_erro_12greyd,.icon_erro2_12greyd,.icon_success_12greyd,.icon_success2_12greyd,.icon_correct_12greyd,.icon_fall_12greyd,.icon_asce_12greyd,.icon_calendar_12greyd,.icon_me_12greyd,.icon_like_12greyd,.icon_like2_12greyd,.icon_tel_12greyd,.icon_shop_12greyd,.icon_phone_12greyd,.icon_star_12greyd,.icon_star2_12greyd,
+.icon_home_12blue,.icon_plus_12blue,.icon_minus_12blue,.icon_right_12blue,.icon_left_12blue,.icon_up_12blue,.icon_down_12blue,.icon_del_12blue,.icon_fresh_12blue,.icon_search_12blue,.icon_close_12blue,.icon_erro_12blue,.icon_erro2_12blue,.icon_success_12blue,.icon_success2_12blue,.icon_correct_12blue,.icon_fall_12blue,.icon_asce_12blue,.icon_calendar_12blue,.icon_me_12blue,.icon_like_12blue,.icon_like2_12blue,.icon_tel_12blue,.icon_shop_12blue,.icon_phone_12blue,
+.icon_home_12red,.icon_plus_12red,.icon_minus_12red,.icon_right_12red,.icon_left_12red,.icon_up_12red,.icon_down_12red,.icon_del_12red,.icon_fresh_12red,.icon_search_12red,.icon_close_12red,.icon_warn_12red,.icon_warn2_12red,.icon_erro_12red,.icon_erro2_12red,.icon_success_12red,.icon_success2_12red,.icon_correct_12red,.icon_fall_12red,.icon_asce_12red,.icon_calendar_12red,.icon_me_12red,.icon_like_12red,.icon_like2_12red,.icon_tel_12red,.icon_shop_12red,.icon_phone_12red,
+.icon_fresh_12green,.icon_success_12green,.icon_success2_12green,.icon_correct_12green,.icon_fall_12green,
+.icon_warn_12yellow,.icon_warn2_12yellow,.icon_star_12yellow,.icon_star2_12yellow {
+  display:inline-block;
+  width:12px;
+  height:12px;
+  background:url(img/icon.png) no-repeat 0 0;
+  vertical-align: middle;
+}
+/* 12*12 白 */
+.icon_home_12white {background-position:0 -80px;}
+.icon_plus_12white {background-position:-20px -80px;}
+.icon_minus_12white {background-position:-40px -80px;}
+.icon_right_12white {background-position:-60px -80px;}
+.icon_left_12white {background-position:-80px -80px;}
+.icon_up_12white {background-position:-100px -80px;}
+.icon_down_12white {background-position:-120px -80px;}
+.icon_del_12white {background-position:-140px -80px;}
+.icon_fresh_12white {background-position:-160px -80px;}
+.icon_search_12white {background-position:-180px -80px;}
+.icon_close_12white {background-position:-200px -80px;}
+.icon_warn_12white {background-position:-220px -80px;}
+.icon_warn2_12white {background-position:-240px -80px;}
+.icon_erro_12white {background-position:-260px -80px;}
+.icon_erro2_12white {background-position:-280px -80px;}
+.icon_success_12white {background-position:-300px -80px;}
+.icon_success2_12white {background-position:-340px -80px;}
+.icon_correct_12white {background-position:-320px -80px;}
+.icon_fall_12white {background-position:-360px -80px;}
+.icon_asce_12white {background-position:-380px -80px;}
+.icon_calendar_12white {background-position:-400 -80px;}
+.icon_me_12white {background-position:-420px -80px;}
+.icon_like_12white {background-position:-440px -80px;}
+.icon_like2_12white {background-position:-460px -80px;}
+.icon_tel_12white {background-position:-480px -80px;}
+.icon_shop_12white {background-position:-500px -80px;}
+.icon_phone_12white {background-position:-520px -80px;}
+.icon_star_12white {background-position:-540px -80px;}
+.icon_star2_12white {background-position:-560px -80px;}
+/* 12*12 浅灰 */
+.icon_home_12greyl {background-position:0 -100px;}
+.icon_plus_12greyl {background-position:-20px -100px;}
+.icon_minus_12greyl {background-position:-40px -100px;}
+.icon_right_12greyl {background-position:-60px -100px;}
+.icon_left_12greyl {background-position:-80px -100px;}
+.icon_up_12greyl {background-position:-100px -100px;}
+.icon_down_12greyl {background-position:-120px -100px;}
+.icon_del_12greyl {background-position:-140px -100px;}
+.icon_fresh_12greyl {background-position:-160px -100px;}
+.icon_search_12greyl {background-position:-180px -100px;}
+.icon_close_12greyl {background-position:-200px -100px;}
+.icon_warn_12greyl {background-position:-220px -100px;}
+.icon_warn2_12greyl {background-position:-240px -100px;}
+.icon_erro_12greyl {background-position:-260px -100px;}
+.icon_erro2_12greyl {background-position:-280px -100px;}
+.icon_success_12greyl {background-position:-300px -100px;}
+.icon_success2_12greyl {background-position:-340px -100px;}
+.icon_correct_12greyl {background-position:-320px -100px;}
+.icon_fall_12greyl {background-position:-360px -100px;}
+.icon_asce_12greyl {background-position:-380px -100px;}
+.icon_calendar_12greyl {background-position:-400px -100px;}
+.icon_me_12greyl {background-position:-420px -100px;}
+.icon_like_12greyl {background-position:-440px -100px;}
+.icon_like2_12greyl {background-position:-460px -100px;}
+.icon_tel_12greyl {background-position:-480px -100px;}
+.icon_shop_12greyl {background-position:-500px -100px;}
+.icon_phone_12greyl {background-position:-520px -100px;}
+.icon_star_12greyl {background-position:-540px -100px;}
+.icon_star2_12greyl {background-position:-560px -100px;}
+/* 12*12 深灰 */
+.icon_home_12greyd {background-position:0 -120px;}
+.icon_plus_12greyd {background-position:-20px -120px;}
+.icon_minus_12greyd {background-position:-40px -120px;}
+.icon_right_12greyd {background-position:-60px -120px;}
+.icon_left_12greyd {background-position:-80px -120px;}
+.icon_up_12greyd {background-position:-100px -120px;}
+.icon_down_12greyd {background-position:-120px -120px;}
+.icon_del_12greyd {background-position:-140px -120px;}
+.icon_fresh_12greyd {background-position:-160px -120px;}
+.icon_search_12greyd {background-position:-180px -120px;}
+.icon_close_12greyd {background-position:-200px -120px;}
+.icon_warn_12greyd {background-position:-220px -120px;}
+.icon_warn2_12greyd {background-position:-240px -120px;}
+.icon_erro_12greyd {background-position:-260px -120px;}
+.icon_erro2_12greyd {background-position:-280px -120px;}
+.icon_success_12greyd {background-position:-300px -120px;}
+.icon_success2_12greyd {background-position:-340px -120px;}
+.icon_correct_12greyd {background-position:-320px -120px;}
+.icon_fall_12greyd {background-position:-360px -120px;}
+.icon_asce_12greyd {background-position:-380px -120px;}
+.icon_calendar_12greyd {background-position:-400px -120px;}
+.icon_me_12greyd {background-position:-420px -120px;}
+.icon_like_12greyd {background-position:-440px -120px;}
+.icon_like2_12greyd {background-position:-460px -120px;}
+.icon_tel_12greyd {background-position:-480px -120px;}
+.icon_shop_12greyd {background-position:-500px -120px;}
+.icon_phone_12greyd {background-position:-520px -120px;}
+.icon_star_12greyd {background-position:-540px -120px;}
+.icon_star2_12greyd {background-position:-560px -120px;}
+/* 12*12 蓝 */
+.icon_home_12blue {background-position:0 -140px;}
+.icon_plus_12blue {background-position:-20px -140px;}
+.icon_minus_12blue {background-position:-40px -140px;}
+.icon_right_12blue {background-position:-60px -140px;}
+.icon_left_12blue {background-position:-80px -140px;}
+.icon_up_12blue {background-position:-100px -140px;}
+.icon_down_12blue {background-position:-120px -140px;}
+.icon_del_12blue {background-position:-140px -140px;}
+.icon_fresh_12blue {background-position:-160px -140px;}
+.icon_search_12blue {background-position:-180px -140px;}
+.icon_close_12blue {background-position:-200px -140px;}
+.icon_erro_12blue {background-position:-260px -140px;}
+.icon_erro2_12blue {background-position:-280px -140px;}
+.icon_success_12blue {background-position:-300px -140px;}
+.icon_success2_12blue {background-position:-340px -140px;}
+.icon_correct_12blue {background-position:-320px -140px;}
+.icon_fall_12blue {background-position:-360px -140px;}
+.icon_asce_12blue {background-position:-380px -140px;}
+.icon_calendar_12blue {background-position:-400px -140px;}
+.icon_me_12blue {background-position:-420px -140px;}
+.icon_like_12blue {background-position:-440px -140px;}
+.icon_like2_12blue {background-position:-460px -140px;}
+.icon_tel_12blue {background-position:-480px -140px;}
+.icon_shop_12blue {background-position:-500px -140px;}
+.icon_phone_12blue {background-position:-520px -140px;}
+/* 12*12 红 */
+.icon_home_12red {background-position:0 -160px;}
+.icon_plus_12red {background-position:-20px -160px;}
+.icon_minus_12red {background-position:-40px -160px;}
+.icon_right_12red {background-position:-60px -160px;}
+.icon_left_12red {background-position:-80px -160px;}
+.icon_up_12red {background-position:-100px -160px;}
+.icon_down_12red {background-position:-120px -160px;}
+.icon_del_12red {background-position:-140px -160px;}
+.icon_fresh_12red {background-position:-160px -160px;}
+.icon_search_12red {background-position:-180px -160px;}
+.icon_close_12red {background-position:-200px -160px;}
+.icon_warn_12red {background-position:-220px -160px;}
+.icon_warn2_12red {background-position:-240px -160px;}
+.icon_erro_12red {background-position:-260px -160px;}
+.icon_erro2_12red {background-position:-280px -160px;}
+.icon_success_12red {background-position:-300px -160px;}
+.icon_success2_12red {background-position:-340px -160px;}
+.icon_correct_12red {background-position:-320px -160px;}
+.icon_fall_12red {background-position:-360px -160px;}
+.icon_asce_12red {background-position:-380px -160px;}
+.icon_calendar_12red {background-position:-400px -160px;}
+.icon_me_12red {background-position:-420px -160px;}
+.icon_like_12red {background-position:-440px -160px;}
+.icon_like2_12red {background-position:-460px -160px;}
+.icon_tel_12red {background-position:-480px -160px;}
+.icon_shop_12red {background-position:-500px -160px;}
+.icon_phone_12red {background-position:-520px -160px;}
+/* 12*12 绿 */
+.icon_fresh_12green {background-position:-160px -180px;}
+.icon_success_12green {background-position:-300px -180px;}
+.icon_success2_12green {background-position:-340px -180px;}
+.icon_correct_12green {background-position:-320px -180px;}
+.icon_fall_12green {background-position:-360px -180px;}
+/* 12*12 黄 */
+.icon_warn_12yellow {background-position:-220px -200px;}
+.icon_warn2_12yellow {background-position:-240px -200px;}
+.icon_star_12yellow {background-position:-540px -200px;}
+.icon_star2_12yellow {background-position:-560px -200px;}
+/* 16*16 */
+.icon_me_16white,.icon_lock_16white,.icon_phone_16white,.icon_tel_16white,.icon_home_16white,.icon_warn_16white,.icon_warn2_16white,.icon_erro_16white,.icon_erro2_16white,.icon_success_16white,.icon_success2_16white,.icon_close_16white,.icon_correct_16white,.icon_search_16white,.icon_fresh_16white,.icon_del_16white,.icon_calendar_16white,.icon_plus_16white,.icon_minus_16white,.icon_up_16white,.icon_down_16white,.icon_right_16white,.icon_left_16white,.icon_save_16white,.icon_serve_16white,.icon_clock_16white,.icon_upload_16white,.icon_download_16white,.icon_top_16white,.icon_fall_16white,.icon_asce_16white,.icon_shop_16white,.icon_set_16white,.icon_good_16white,.icon_star_16white,.icon_star2_16white,.icon_edit_16white,.icon_exchange_16white,.icon_write_16white,.icon_board_16white,.icon_like_16white,.icon_like2_16white,.icon_leter_16white,.icon_locate_16white,.icon_term_16white,.icon_locate2_16white,.icon_chart_16white,.icon_pic_16white,
+.icon_me_16greyl,.icon_lock_16greyl,.icon_phone_16greyl,.icon_tel_16greyl,.icon_home_16greyl,.icon_warn_16greyl,.icon_warn2_16greyl,.icon_erro_16greyl,.icon_erro2_16greyl,.icon_success_16greyl,.icon_success2_16greyl,.icon_close_16greyl,.icon_correct_16greyl,.icon_search_16greyl,.icon_fresh_16greyl,.icon_del_16greyl,.icon_calendar_16greyl,.icon_plus_16greyl,.icon_minus_16greyl,.icon_up_16greyl,.icon_down_16greyl,.icon_right_16greyl,.icon_left_16greyl,.icon_save_16greyl,.icon_serve_16greyl,.icon_clock_16greyl,.icon_upload_16greyl,.icon_download_16greyl,.icon_top_16greyl,.icon_fall_16greyl,.icon_asce_16greyl,.icon_shop_16greyl,.icon_set_16greyl,.icon_good_16greyl,.icon_star_16greyl,.icon_star2_16greyl,.icon_edit_16greyl,.icon_exchange_16greyl,.icon_write_16greyl,.icon_board_16greyl,.icon_like_16greyl,.icon_like2_16greyl,.icon_leter_16greyl,.icon_locate_16greyl,.icon_term_16greyl,.icon_locate2_16greyl,.icon_chart_16greyl,.icon_pic_16greyl,
+ .icon_me_16greyd,.icon_lock_16greyd,.icon_phone_16greyd,.icon_tel_16greyd,.icon_home_16greyd,.icon_warn_16greyd,.icon_warn2_16greyd,.icon_erro_16greyd,.icon_erro2_16greyd,.icon_success_16greyd,.icon_success2_16greyd,.icon_close_16greyd,.icon_correct_16greyd,.icon_search_16greyd,.icon_fresh_16greyd,.icon_del_16greyd,.icon_calendar_16greyd,.icon_plus_16greyd,.icon_minus_16greyd,.icon_up_16greyd,.icon_down_16greyd,.icon_right_16greyd,.icon_left_16greyd,.icon_save_16greyd,.icon_serve_16greyd,.icon_clock_16greyd,.icon_upload_16greyd,.icon_download_16greyd,.icon_top_16greyd,.icon_fall_16greyd,.icon_asce_16greyd,.icon_shop_16greyd,.icon_set_16greyd,.icon_good_16greyd,.icon_star_16greyd,.icon_star2_16greyd,.icon_edit_16greyd,.icon_exchange_16greyd,.icon_write_16greyd,.icon_board_16greyd,.icon_like_16greyd,.icon_like2_16greyd,.icon_leter_16greyd,.icon_locate_16greyd,.icon_term_16greyd,.icon_locate2_16greyd,.icon_chart_16greyd,.icon_pic_16greyd,
+ .icon_phone_16blue,.icon_tel_16blue,.icon_home_16blue,.icon_erro_16blue,.icon_erro2_16blue,.icon_success_16blue,.icon_success2_16blue,.icon_close_16blue,.icon_correct_16blue,.icon_search_16blue,.icon_fresh_16blue,.icon_del_16blue,.icon_calendar_16blue,.icon_plus_16blue,.icon_minus_16blue,.icon_up_16blue,.icon_down_16blue,.icon_right_16blue,.icon_left_16blue,.icon_save_16blue,.icon_serve_16blue,.icon_clock_16blue,.icon_upload_16blue,.icon_download_16blue,.icon_top_16blue,.icon_fall_16blue,.icon_asce_16blue,.icon_shop_16blue,.icon_set_16blue,.icon_good_16blue,.icon_edit_16blue,.icon_exchange_16blue,.icon_write_16blue,.icon_board_16blue,.icon_like_16blue,.icon_like2_16blue,.icon_chart_16blue,.icon_pic_16blue,
+ .icon_phone_16red,.icon_tel_16red,.icon_home_16red,.icon_warn_16red,.icon_warn2_16red,.icon_erro_16red,.icon_erro2_16red,.icon_success_16red,.icon_success2_16red,.icon_close_16red,.icon_correct_16red,.icon_search_16red,.icon_fresh_16red,.icon_del_16red,.icon_calendar_16red,.icon_plus_16red,.icon_minus_16red,.icon_up_16red,.icon_down_16red,.icon_right_16red,.icon_left_16red,.icon_save_16red,.icon_serve_16red,.icon_clock_16red,.icon_upload_16red,.icon_download_16red,.icon_top_16red,.icon_fall_16red,.icon_asce_16red,.icon_shop_16red,.icon_set_16red,.icon_good_16red,.icon_edit_16red,.icon_exchange_16red,.icon_write_16red,.icon_board_16red,.icon_like_16red,.icon_like2_16red,.icon_chart_16red,.icon_pic_16red,
+ .icon_phone_16green,.icon_tel_16green,.icon_success_16green,.icon_success2_16green,.icon_correct_16green,.icon_fresh_16green,.icon_upload_16green,.icon_download_16green,.icon_fall_16green,
+ .icon_warn_16yellow,.icon_warn2_16yellow,.icon_star_16yellow,.icon_star2_16yellow {
+  display:inline-block;
+  width:16px;
+  height:16px;
+  background:url(img/icon.png) no-repeat 0 0;
+  vertical-align: middle;
+}
+/* 16*16 白 */
+.icon_me_16white{background-position:0px -260px; }
+.icon_lock_16white{background-position:-20px -260px; }
+.icon_phone_16white{background-position:-40px -260px; }
+.icon_tel_16white{background-position:-60px -260px; }
+.icon_home_16white{background-position:-80px -260px; }
+.icon_warn_16white{background-position:-100px -260px; }
+.icon_warn2_16white{background-position:-120px -260px; }
+.icon_erro_16white{background-position:-140px -260px; }
+.icon_erro2_16white{background-position:-180px -260px; }
+.icon_success_16white{background-position:-160px -260px; }
+.icon_success2_16white{background-position:-200px -260px; }
+.icon_close_16white{background-position:-220px -260px; }
+.icon_correct_16white{background-position:-240px -260px; }
+.icon_search_16white{background-position:-260px -260px; }
+.icon_fresh_16white{background-position:-280px -260px; }
+.icon_del_16white{background-position:-300px -260px; }
+.icon_calendar_16white{background-position:-320px -260px; }
+.icon_plus_16white{background-position:-340px -260px; }
+.icon_minus_16white{background-position:-360px -260px; }
+.icon_up_16white{background-position:-380px -260px; }
+.icon_down_16white{background-position:-400px -260px; }
+.icon_right_16white{background-position:-420px -260px; }
+.icon_left_16white{background-position:-440px -260px; }
+.icon_save_16white{background-position:-460px -260px; }
+.icon_serve_16white{background-position:-480px -260px; }
+.icon_clock_16white{background-position:-500px -260px; }
+.icon_upload_16white{background-position:-520px -260px; }
+.icon_download_16white{background-position:-540px -260px; }
+.icon_top_16white{background-position:-560px -260px; }
+.icon_fall_16white{background-position:-580px -260px; }
+.icon_asce_16white{background-position:-600px -260px; }
+.icon_shop_16white{background-position:-620px -260px; }
+.icon_set_16white{background-position:-640px -260px; }
+.icon_good_16white{background-position:-660px -260px; }
+.icon_star_16white{background-position:-680px -260px; }
+.icon_star2_16white{background-position:-700px -260px; }
+.icon_edit_16white{background-position:-720px -260px; }
+.icon_exchange_16white{background-position:-740px -260px; }
+.icon_write_16white{background-position:-760px -260px; }
+.icon_board_16white{background-position:-780px -260px; }
+.icon_like_16white{background-position:-800px -260px; }
+.icon_like2_16white{background-position:-820px -260px; }
+.icon_leter_16white{background-position:-840px -260px; }
+.icon_locate_16white{background-position:-860px -260px; }
+.icon_locate2_16white{background-position:-880px -260px; }
+.icon_term_16white{background-position:-900px -260px; }
+.icon_chart_16white{background-position:-920px -260px; }
+.icon_pic_16white{background-position:-940px -260px; }
+/* 16*16 浅灰*/
+.icon_me_16greyl{background-position:0px -280px; }
+.icon_lock_16greyl{background-position:-20px -280px; }
+.icon_phone_16greyl{background-position:-40px -280px; }
+.icon_tel_16greyl{background-position:-60px -280px; }
+.icon_home_16greyl{background-position:-80px -280px; }
+.icon_warn_16greyl{background-position:-100px -280px; }
+.icon_warn2_16greyl{background-position:-120px -280px; }
+.icon_erro_16greyl{background-position:-140px -280px; }
+.icon_erro2_16greyl{background-position:-180px -280px; }
+.icon_success_16greyl{background-position:-160px -280px; }
+.icon_success2_16greyl{background-position:-200px -280px; }
+.icon_close_16greyl{background-position:-220px -280px; }
+.icon_correct_16greyl{background-position:-240px -280px; }
+.icon_search_16greyl{background-position:-260px -280px; }
+.icon_fresh_16greyl{background-position:-280px -280px; }
+.icon_del_16greyl{background-position:-300px -280px; }
+.icon_calendar_16greyl{background-position:-320px -280px; }
+.icon_plus_16greyl{background-position:-340px -280px; }
+.icon_minus_16greyl{background-position:-360px -280px; }
+.icon_up_16greyl{background-position:-380px -280px; }
+.icon_down_16greyl{background-position:-400px -280px; }
+.icon_right_16greyl{background-position:-420px -280px; }
+.icon_left_16greyl{background-position:-440px -280px; }
+.icon_save_16greyl{background-position:-460px -280px; }
+.icon_serve_16greyl{background-position:-480px -280px; }
+.icon_clock_16greyl{background-position:-500px -280px; }
+.icon_upload_16greyl{background-position:-520px -280px; }
+.icon_download_16greyl{background-position:-540px -280px; }
+.icon_top_16greyl{background-position:-560px -280px; }
+.icon_fall_16greyl{background-position:-580px -280px; }
+.icon_asce_16greyl{background-position:-600px -280px; }
+.icon_shop_16greyl{background-position:-620px -280px; }
+.icon_set_16greyl{background-position:-640px -280px; }
+.icon_good_16greyl{background-position:-660px -280px; }
+.icon_star_16greyl{background-position:-680px -280px; }
+.icon_star2_16greyl{background-position:-700px -280px; }
+.icon_edit_16greyl{background-position:-720px -280px; }
+.icon_exchange_16greyl{background-position:-740px -280px; }
+.icon_write_16greyl{background-position:-760px -280px; }
+.icon_board_16greyl{background-position:-780px -280px; }
+.icon_like_16greyl{background-position:-800px -280px; }
+.icon_like2_16greyl{background-position:-820px -280px; }
+.icon_leter_16greyl{background-position:-840px -280px; }
+.icon_locate_16greyl{background-position:-860px -280px; }
+.icon_locate2_16greyl{background-position:-880px -280px; }
+.icon_term_16greyl{background-position:-900px -280px; }
+.icon_chart_16greyl{background-position:-920px -280px; }
+.icon_pic_16greyl{background-position:-940px -280px; }
+/* 16*16 深灰*/
+.icon_me_16greyd{background-position:0px -300px; }
+.icon_lock_16greyd{background-position:-20px -300px; }
+.icon_phone_16greyd{background-position:-40px -300px; }
+.icon_tel_16greyd{background-position:-60px -300px; }
+.icon_home_16greyd{background-position:-80px -300px; }
+.icon_warn_16greyd{background-position:-100px -300px; }
+.icon_warn2_16greyd{background-position:-120px -300px; }
+.icon_erro_16greyd{background-position:-140px -300px; }
+.icon_erro2_16greyd{background-position:-180px -300px; }
+.icon_success_16greyd{background-position:-160px -300px; }
+.icon_success2_16greyd{background-position:-200px -300px; }
+.icon_close_16greyd{background-position:-220px -300px; }
+.icon_correct_16greyd{background-position:-240px -300px; }
+.icon_search_16greyd{background-position:-260px -300px; }
+.icon_fresh_16greyd{background-position:-280px -300px; }
+.icon_del_16greyd{background-position:-300px -300px; }
+.icon_calendar_16greyd{background-position:-320px -300px; }
+.icon_plus_16greyd{background-position:-340px -300px; }
+.icon_minus_16greyd{background-position:-360px -300px; }
+.icon_up_16greyd{background-position:-380px -300px; }
+.icon_down_16greyd{background-position:-400px -300px; }
+.icon_right_16greyd{background-position:-420px -300px; }
+.icon_left_16greyd{background-position:-440px -300px; }
+.icon_save_16greyd{background-position:-460px -300px; }
+.icon_serve_16greyd{background-position:-480px -300px; }
+.icon_clock_16greyd{background-position:-500px -300px; }
+.icon_upload_16greyd{background-position:-520px -300px; }
+.icon_download_16greyd{background-position:-540px -300px; }
+.icon_top_16greyd{background-position:-560px -300px; }
+.icon_fall_16greyd{background-position:-580px -300px; }
+.icon_asce_16greyd{background-position:-600px -300px; }
+.icon_shop_16greyd{background-position:-620px -300px; }
+.icon_set_16greyd{background-position:-640px -300px; }
+.icon_good_16greyd{background-position:-660px -300px; }
+.icon_star_16greyd{background-position:-680px -300px; }
+.icon_star2_16greyd{background-position:-700px -300px; }
+.icon_edit_16greyd{background-position:-720px -300px; }
+.icon_exchange_16greyd{background-position:-740px -300px; }
+.icon_write_16greyd{background-position:-760px -300px; }
+.icon_board_16greyd{background-position:-780px -300px; }
+.icon_like_16greyd{background-position:-800px -300px; }
+.icon_like2_16greyd{background-position:-820px -300px; }
+.icon_leter_16greyd{background-position:-840px -300px; }
+.icon_locate_16greyd{background-position:-860px -300px; }
+.icon_locate2_16greyd{background-position:-880px -300px; }
+.icon_term_16greyd{background-position:-900px -300px; }
+.icon_chart_16greyd{background-position:-920px -300px; }
+.icon_pic_16greyd{background-position:-940px -300px; }
+/* 16*16 蓝*/
+.icon_phone_16blue{background-position:-40px -320px; }
+.icon_tel_16blue{background-position:-60px -320px; }
+.icon_home_16blue{background-position:-80px -320px; }
+.icon_erro_16blue{background-position:-140px -320px; }
+.icon_erro2_16blue{background-position:-180px -320px; }
+.icon_success_16blue{background-position:-160px -320px; }
+.icon_success2_16blue{background-position:-200px -320px; }
+.icon_close_16blue{background-position:-220px -320px; }
+.icon_correct_16blue{background-position:-240px -320px; }
+.icon_search_16blue{background-position:-260px -320px; }
+.icon_fresh_16blue{background-position:-280px -320px; }
+.icon_del_16blue{background-position:-300px -320px; }
+.icon_calendar_16blue{background-position:-320px -320px; }
+.icon_plus_16blue{background-position:-340px -320px; }
+.icon_minus_16blue{background-position:-360px -320px; }
+.icon_up_16blue{background-position:-380px -320px; }
+.icon_down_16blue{background-position:-400px -320px; }
+.icon_right_16blue{background-position:-420px -320px; }
+.icon_left_16blue{background-position:-440px -320px; }
+.icon_save_16blue{background-position:-460px -320px; }
+.icon_serve_16blue{background-position:-480px -320px; }
+.icon_clock_16blue{background-position:-500px -320px; }
+.icon_upload_16blue{background-position:-520px -320px; }
+.icon_download_16blue{background-position:-540px -320px; }
+.icon_top_16blue{background-position:-560px -320px; }
+.icon_fall_16blue{background-position:-580px -320px; }
+.icon_asce_16blue{background-position:-600px -320px; }
+.icon_shop_16blue{background-position:-620px -320px; }
+.icon_set_16blue{background-position:-640px -320px; }
+.icon_good_16blue{background-position:-660px -320px; }
+.icon_edit_16blue{background-position:-720px -320px; }
+.icon_exchange_16blue{background-position:-740px -320px; }
+.icon_write_16blue{background-position:-760px -320px; }
+.icon_board_16blue{background-position:-780px -320px; }
+.icon_like_16blue{background-position:-800px -320px; }
+.icon_like2_16blue{background-position:-820px -320px; }
+.icon_chart_16blue{background-position:-920px -320px; }
+.icon_pic_16blue{background-position:-940px -320px; }
+/* 16*16 红*/
+.icon_phone_16red{background-position:-40px -340px; }
+.icon_tel_16red{background-position:-60px -340px; }
+.icon_home_16red{background-position:-80px -340px; }
+.icon_warn_16red{background-position:-100px -340px; }
+.icon_warn2_16red{background-position:-120px -340px; }
+.icon_erro_16red{background-position:-140px -340px; }
+.icon_erro2_16red{background-position:-180px -340px; }
+.icon_success_16red{background-position:-160px -340px; }
+.icon_success2_16red{background-position:-200px -340px; }
+.icon_close_16red{background-position:-220px -340px; }
+.icon_correct_16red{background-position:-240px -340px; }
+.icon_search_16red{background-position:-260px -340px; }
+.icon_fresh_16red{background-position:-280px -340px; }
+.icon_del_16red{background-position:-300px -340px; }
+.icon_calendar_16red{background-position:-320px -340px; }
+.icon_plus_16red{background-position:-340px -340px; }
+.icon_minus_16red{background-position:-360px -340px; }
+.icon_up_16red{background-position:-380px -340px; }
+.icon_down_16red{background-position:-400px -340px; }
+.icon_right_16red{background-position:-420px -340px; }
+.icon_left_16red{background-position:-440px -340px; }
+.icon_save_16red{background-position:-460px -340px; }
+.icon_serve_16red{background-position:-480px -340px; }
+.icon_clock_16red{background-position:-500px -340px; }
+.icon_upload_16red{background-position:-520px -340px; }
+.icon_download_16red{background-position:-540px -340px; }
+.icon_top_16red{background-position:-560px -340px; }
+.icon_fall_16red{background-position:-580px -340px; }
+.icon_asce_16red{background-position:-600px -340px; }
+.icon_shop_16red{background-position:-620px -340px; }
+.icon_set_16red{background-position:-640px -340px; }
+.icon_good_16red{background-position:-660px -340px; }
+.icon_edit_16red{background-position:-720px -340px; }
+.icon_exchange_16red{background-position:-740px -340px; }
+.icon_write_16red{background-position:-760px -340px; }
+.icon_board_16red{background-position:-780px -340px; }
+.icon_like_16red{background-position:-800px -340px; }
+.icon_like2_16red{background-position:-820px -340px; }
+.icon_chart_16red{background-position:-920px -340px; }
+.icon_pic_16red{background-position:-940px -340px; }
+/* 16*16 绿*/
+.icon_phone_16green {background-position:-40px -360px }
+.icon_tel_16green {background-position:-60px -360px }
+.icon_success_16green {background-position:-160px -360px }
+.icon_success2_16green {background-position:-200px -360px }
+.icon_correct_16green {background-position:-240px -360px }
+.icon_fresh_16green {background-position:-280px -360px }
+.icon_upload_16green {background-position:-520px -360px }
+.icon_download_16green {background-position:-540px -360px }
+.icon_fall_16green {background-position:-580px -360px }
+/* 16*16 黄*/
+.icon_warn_16yellow {background-position:-100px -380px }
+.icon_warn2_16yellow {background-position:-120px -380px }
+.icon_star_16yellow {background-position:-680px -380px }
+.icon_star2_16yellow {background-position:-700px -380px }
+/* 24*24 */
+.icon_shop_24white,.icon_serve_24white,.icon_chart_24white,.icon_pic_24white,.icon_top_24white,.icon_like_24white,.icon_like2_24white,.icon_tel_24white,.icon_warn_24white,.icon_warn2_24white,.icon_erro_24white,.icon_erro2_24white,.icon_success_24white,.icon_success2_24white,.icon_close_24white,.icon_correct_24white,.icon_search_24white,.icon_fresh_24white,.icon_del_24white,.icon_upload_24white,.icon_download_24white,.icon_fall_24white,.icon_asce_24white,.icon_star_24white,.icon_star2_24white,.icon_calendar_24white,.icon_edit_24white,.icon_write_24white,.icon_board_24white,
+ .icon_shop_24greyl,.icon_serve_24greyl,.icon_chart_24greyl,.icon_pic_24greyl,.icon_top_24greyl,.icon_like_24greyl,.icon_like2_24greyl,.icon_tel_24greyl,.icon_warn_24greyl,.icon_warn2_24greyl,.icon_erro_24greyl,.icon_erro2_24greyl,.icon_success_24greyl,.icon_success2_24greyl,.icon_close_24greyl,.icon_correct_24greyl,.icon_search_24greyl,.icon_fresh_24greyl,.icon_del_24greyl,.icon_upload_24greyl,.icon_download_24greyl,.icon_fall_24greyl,.icon_asce_24greyl,.icon_star_24greyl,.icon_star2_24greyl,.icon_calendar_24greyl,.icon_edit_24greyl,.icon_write_24greyl,.icon_board_24greyl,
+ .icon_shop_24greyd,.icon_serve_24greyd,.icon_chart_24greyd,.icon_pic_24greyd,.icon_top_24greyd,.icon_like_24greyd,.icon_like2_24greyd,.icon_tel_24greyd,.icon_warn_24greyd,.icon_warn2_24greyd,.icon_erro_24greyd,.icon_erro2_24greyd,.icon_success_24greyd,.icon_success2_24greyd,.icon_close_24greyd,.icon_correct_24greyd,.icon_search_24greyd,.icon_fresh_24greyd,.icon_del_24greyd,.icon_upload_24greyd,.icon_download_24greyd,.icon_fall_24greyd,.icon_asce_24greyd,.icon_star_24greyd,.icon_star2_24greyd,.icon_calendar_24greyd,.icon_edit_24greyd,.icon_write_24greyd,.icon_board_24greyd,
+ .icon_shop_24blue,.icon_serve_24blue,.icon_chart_24blue,.icon_pic_24blue,.icon_top_24blue,.icon_like_24blue,.icon_like2_24blue,.icon_tel_24blue,.icon_erro_24blue,.icon_erro2_24blue,.icon_success_24blue,.icon_success2_24blue,.icon_close_24blue,.icon_correct_24blue,.icon_search_24blue,.icon_fresh_24blue,.icon_del_24blue,.icon_upload_24blue,.icon_download_24blue,.icon_fall_24blue,.icon_asce_24blue,.icon_calendar_24blue,.icon_edit_24blue,.icon_write_24blue,.icon_board_24blue,
+ .icon_shop_24red,.icon_serve_24red,.icon_chart_24red,.icon_pic_24red,.icon_top_24red,.icon_like_24red,.icon_like2_24red,.icon_tel_24red,.icon_warn_24red,.icon_warn2_24red,.icon_erro_24red,.icon_erro2_24red,.icon_success_24red,.icon_success2_24red,.icon_close_24red,.icon_correct_24red,.icon_search_24red,.icon_fresh_24red,.icon_del_24red,.icon_upload_24red,.icon_download_24red,.icon_fall_24red,.icon_asce_24red,.icon_calendar_24red,.icon_edit_24red,.icon_write_24red,.icon_board_24red,
+ .icon_tel_24green, .icon_success_24green, .icon_success2_24green,.icon_correct_24green,.icon_fresh_24green,.icon_upload_24green,.icon_download_24green,.icon_fall_24green,
+ .icon_warn_24yellow, .icon_warn2_24yellow, .icon_star_24yellow, .icon_star2_24yellow {
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background:url(img/icon.png) no-repeat 0 0;
+  vertical-align: middle;
+}
+/* 24*24 白 */
+.icon_shop_24white {background-position:0 -450px;}
+.icon_serve_24white {background-position:-30px -450px;}
+.icon_chart_24white {background-position:-60px -450px;}
+.icon_pic_24white {background-position:-90px -450px;}
+.icon_top_24white {background-position:-120px -450px;}
+.icon_like_24white {background-position:-150px -450px;}
+.icon_like2_24white {background-position:-180px -450px;}
+.icon_tel_24white {background-position:-210px -450px;}
+.icon_warn_24white {background-position:-240px -450px;}
+.icon_warn2_24white {background-position:-270px -450px;}
+.icon_erro_24white {background-position:-300px -450px;}
+.icon_erro2_24white {background-position:-330px -450px;}
+.icon_success_24white {background-position:-360px -450px;}
+.icon_success2_24white {background-position:-390px -450px;}
+.icon_close_24white {background-position:-420px -450px;}
+.icon_correct_24white {background-position:-450px -450px;}
+.icon_search_24white {background-position:-480px -450px;}
+.icon_fresh_24white {background-position:-510px -450px;}
+.icon_del_24white {background-position:-540px -450px;}
+.icon_upload_24white {background-position:-570px -450px;}
+.icon_download_24white {background-position:-600px -450px;}
+.icon_fall_24white {background-position:-630px -450px;}
+.icon_asce_24white {background-position:-660px -450px;}
+.icon_star_24white {background-position:-690px -450px;}
+.icon_star2_24white {background-position:-720px -450px;}
+.icon_calendar_24white {background-position:-750px -450px;}
+.icon_edit_24white {background-position:-780px -450px;}
+.icon_write_24white {background-position:-810px -450px;}
+.icon_board_24white {background-position:-840px -450px;}
+/* 24*24 浅灰 */
+.icon_shop_24greyl {background-position:0 -480px;}
+.icon_serve_24greyl {background-position:-30px -480px;}
+.icon_chart_24greyl {background-position:-60px -480px;}
+.icon_pic_24greyl {background-position:-90px -480px;}
+.icon_top_24greyl {background-position:-120px -480px;}
+.icon_like_24greyl {background-position:-150px -480px;}
+.icon_like2_24greyl {background-position:-180px -480px;}
+.icon_tel_24greyl {background-position:-210px -480px;}
+.icon_warn_24greyl {background-position:-240px -480px;}
+.icon_warn2_24greyl {background-position:-270px -480px;}
+.icon_erro_24greyl {background-position:-300px -480px;}
+.icon_erro2_24greyl {background-position:-330px -480px;}
+.icon_success_24greyl {background-position:-360px -480px;}
+.icon_success2_24greyl {background-position:-390px -480px;}
+.icon_close_24greyl {background-position:-420px -480px;}
+.icon_correct_24greyl {background-position:-450px -480px;}
+.icon_search_24greyl {background-position:-480px -480px;}
+.icon_fresh_24greyl {background-position:-510px -480px;}
+.icon_del_24greyl {background-position:-540px -480px;}
+.icon_upload_24greyl {background-position:-570px -480px;}
+.icon_download_24greyl {background-position:-600px -480px;}
+.icon_fall_24greyl {background-position:-630px -480px;}
+.icon_asce_24greyl {background-position:-660px -480px;}
+.icon_star_24greyl {background-position:-690px -480px;}
+.icon_star2_24greyl {background-position:-720px -480px;}
+.icon_calendar_24greyl {background-position:-750px -480px;}
+.icon_edit_24greyl {background-position:-780px -480px;}
+.icon_write_24greyl {background-position:-810px -480px;}
+.icon_board_24greyl {background-position:-840px -480px;}
+
+/* 24*24 深灰 */
+.icon_shop_24greyd {background-position:0 -510px;}
+.icon_serve_24greyd {background-position:-30px -510px;}
+.icon_chart_24greyd {background-position:-60px -510px;}
+.icon_pic_24greyd {background-position:-90px -510px;}
+.icon_top_24greyd {background-position:-120px -510px;}
+.icon_like_24greyd {background-position:-150px -510px;}
+.icon_like2_24greyd {background-position:-180px -510px;}
+.icon_tel_24greyd {background-position:-210px -510px;}
+.icon_warn_24greyd {background-position:-240px -510px;}
+.icon_warn2_24greyd {background-position:-270px -510px;}
+.icon_erro_24greyd {background-position:-300px -510px;}
+.icon_erro2_24greyd {background-position:-330px -510px;}
+.icon_success_24greyd {background-position:-360px -510px;}
+.icon_success2_24greyd {background-position:-390px -510px;}
+.icon_close_24greyd {background-position:-420px -510px;}
+.icon_correct_24greyd {background-position:-450px -510px;}
+.icon_search_24greyd {background-position:-480px -510px;}
+.icon_fresh_24greyd {background-position:-510px -510px;}
+.icon_del_24greyd {background-position:-540px -510px;}
+.icon_upload_24greyd {background-position:-570px -510px;}
+.icon_download_24greyd {background-position:-600px -510px;}
+.icon_fall_24greyd {background-position:-630px -510px;}
+.icon_asce_24greyd {background-position:-660px -510px;}
+.icon_star_24greyd {background-position:-690px -510px;}
+.icon_star2_24greyd {background-position:-720px -510px;}
+.icon_calendar_24greyd {background-position:-750px -510px;}
+.icon_edit_24greyd {background-position:-780px -510px;}
+.icon_write_24greyd {background-position:-810px -510px;}
+.icon_board_24greyd {background-position:-840px -510px;}
+
+/* 24*24 蓝 */
+.icon_shop_24blue {background-position:0 -540px;}
+.icon_serve_24blue {background-position:-30px -540px;}
+.icon_chart_24blue {background-position:-60px -540px;}
+.icon_pic_24blue {background-position:-90px -540px;}
+.icon_top_24blue {background-position:-120px -540px;}
+.icon_like_24blue {background-position:-150px -540px;}
+.icon_like2_24blue {background-position:-180px -540px;}
+.icon_tel_24blue {background-position:-210px -540px;}
+.icon_erro_24blue {background-position:-300px -540px;}
+.icon_erro2_24blue {background-position:-330px -540px;}
+.icon_success_24blue {background-position:-360px -540px;}
+.icon_success2_24blue {background-position:-390px -540px;}
+.icon_close_24blue {background-position:-420px -540px;}
+.icon_correct_24blue {background-position:-450px -540px;}
+.icon_search_24blue {background-position:-480px -540px;}
+.icon_fresh_24blue {background-position:-510px -540px;}
+.icon_del_24blue {background-position:-540px -540px;}
+.icon_upload_24blue {background-position:-570px -540px;}
+.icon_download_24blue {background-position:-600px -540px;}
+.icon_fall_24blue {background-position:-630px -540px;}
+.icon_asce_24blue {background-position:-660px -540px;}
+.icon_calendar_24blue {background-position:-750px -540px;}
+.icon_edit_24blue {background-position:-780px -540px;}
+.icon_write_24blue {background-position:-810px -540px;}
+.icon_board_24blue {background-position:-840px -540px;}
+/* 24*24 红 */
+.icon_shop_24red {background-position:0 -570px;}
+.icon_serve_24red {background-position:-30px -570px;}
+.icon_chart_24red {background-position:-60px -570px;}
+.icon_pic_24red {background-position:-90px -570px;}
+.icon_top_24red {background-position:-120px -570px;}
+.icon_like_24red {background-position:-150px -570px;}
+.icon_like2_24red {background-position:-180px -570px;}
+.icon_tel_24red {background-position:-210px -570px;}
+.icon_warn_24red {background-position:-240px -570px;}
+.icon_warn2_24red {background-position:-270px -570px;}
+.icon_erro_24red {background-position:-300px -570px;}
+.icon_erro2_24red {background-position:-330px -570px;}
+.icon_success_24red {background-position:-360px -570px;}
+.icon_success2_24red {background-position:-390px -570px;}
+.icon_close_24red {background-position:-420px -570px;}
+.icon_correct_24red {background-position:-450px -570px;}
+.icon_search_24red {background-position:-480px -570px;}
+.icon_fresh_24red {background-position:-510px -570px;}
+.icon_del_24red {background-position:-540px -570px;}
+.icon_upload_24red {background-position:-570px -570px;}
+.icon_download_24red {background-position:-600px -570px;}
+.icon_fall_24red {background-position:-630px -570px;}
+.icon_asce_24red {background-position:-660px -570px;}
+.icon_calendar_24red {background-position:-750px -570px;}
+.icon_edit_24red {background-position:-780px -570px;}
+.icon_write_24red {background-position:-810px -570px;}
+.icon_board_24red {background-position:-840px -570px;}
+
+/* 24*24 绿 */
+.icon_tel_24green {background-position:-210px -600px}
+.icon_success_24green {background-position:-330px -600px}
+.icon_success2_24green {background-position:-390px -600px}
+.icon_correct_24green {background-position:-450px -600px}
+.icon_fresh_24green {background-position:-510px -600px}
+.icon_upload_24green {background-position:-570px -600px}
+.icon_download_24green {background-position:-600px -600px}
+.icon_fall_24green {background-position:-630px -600px}
+/* 24*24 黄 */
+.icon_warn_24yellow{background-position:-240px -630px;}
+.icon_warn2_24yellow{background-position:-270px -630px;}
+.icon_star_24yellow{background-position:-690px -630px;}
+.icon_star2_24yellow{background-position:-720px -630px;}
+/* 32*32 */
+.icon_success_32,.icon_erro_32,.icon_warn_32,.icon_warn2_32 {
+  display:inline-block;
+  width:36px;
+  height:36px;
+  background:url(img/icon.png) no-repeat 0 0;
+  vertical-align: middle;
+}
+.icon_success_32 {background-position:0 -760px }
+.icon_erro_32 {background-position:0 -800px }
+.icon_warn_32 {background-position:0 -720px }
+.icon_warn2_32 {background-position:-40px -720px }
+
+/* 64*64 */
+.icon_success_64,.icon_erro_64,.icon_warn_64,.icon_warn2_64 {
+  display:inline-block;
+  width:64px;
+  height:64px;
+  background:url(img/icon.png) no-repeat 0 0;
+  vertical-align: middle;
+}
+.icon_success_64 {background-position:0 -880px }
+.icon_erro_64 {background-position:-70px -880px }
+.icon_warn_64 {background-position:-140px -880px }
+.icon_warn2_64 {background-position:-210px -880px }

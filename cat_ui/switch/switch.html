@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>switch</title>
+  <link rel="stylesheet" href="switch.css"/>
+  <style>
+    /* reset */
+    * {margin:0;padding:0;}
+    body {padding:50px;}
+  </style>
+</head>
+<body>
+<div class="switchbox">
+
+</div>
+
+<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+<script src="switch.js"></script>
+
+<script>
+  $('.switchbox').switchBox({
+    checked: true,
+    onchange: function (hasChecked) {
+      console.log('开关状态',hasChecked)
+    }
+  });
+
+</script>
+
+
+</body>
+</html>

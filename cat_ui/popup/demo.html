@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>popup</title>
+	<link rel="stylesheet" href="popup.css">
+	<script src="popup.js"></script>
+
+</head>
+<body>
+	<a href="javascript:void(0)" class="btn">点击弹出浮层</a>
+	<p>test</p>
+	<p>test</p>
+	<a href="javascript:void(0)" class="shut">关闭红框中的弹层</a>
+	<p>test</p>
+	<p>test</p>
+	<p>test</p>
+	<div class="box" style="width:500px;height:400px;background:#f00; position:relative;">
+		<a href="javascript:void(0)" class="btn2">点击弹出浮层</a>
+	</div>
+	<p>test</p>
+	<p>test</p>
+	<p>test</p>
+	<p>test</p>
+	<p>test</p><p>test</p>
+	<p>test</p>
+	<p>test</p>
+	<p>test</p>
+	<p>test</p><p>test</p>
+	<p>test</p>
+	<p>test</p>
+	<p>test</p>
+	<p>test</p><p>test</p>
+	<p>test</p>
+	<p>test</p>
+	<p>test</p>
+	<p>test</p><p>test</p>
+	<p>test</p>
+	<p>test</p>
+	<p>test</p>
+
+	<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+	<script src="popup.js"></script>
+
+	<script>
+		$(function(){
+			$('.btn').click(function(){
+				var popup = new CatPopup({
+					template: '<h3>这里个神奇的弹层</h3><p>占位</p><p>占位</p><p>占位</p><h3>这里个神奇的弹层</h3><p>占位</p><p>占位</p><p>占位</p>'
+				}); 
+			})
+
+			$('.btn2').click(function(){
+				popup2 = new CatPopup({
+					dom: '.box',
+					width:200,
+					height:100,
+					template: '<h3>这里个神奇的弹层</h3><p>占位</p><input type="text" class="input"/><p>占位</p><p>占位</p>'
+				}); 
+			})
+
+			$('.shut').click(function(){
+				popup2.close();
+			})
+		})
+	</script>
+
+</body>
+</html>

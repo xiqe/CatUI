@@ -1,0 +1,101 @@
+.gotop {
+    position: fixed;
+    width: 48px;
+    bottom:20%;
+    right: 20px;
+    text-align: center;
+    opacity: 0.9;
+    z-index: 99;
+}
+.gotop li {
+    width: 48px;
+    position: relative;
+}
+.gotop a {
+    display: block;
+    width:48px;
+    height:48px;
+    background: url(img/ui_gotop_bg.png) no-repeat;
+    position: relative;
+}
+.gotop .top {
+    display: none;
+}
+.gotop .btn_suggest {
+    background-position: 0 0;
+}
+.gotop .btn_qrcode {
+    background-position: 0 -48px;
+}
+.gotop .btn_phone {
+    background-position: 0 -96px;
+}
+.gotop .btn_qq {
+    background-position: 0 -144px;
+}
+.gotop .btn_gotop {
+    background-position: 0 -192px;
+}
+.gotop .btn_suggest:hover {
+    background-position: -48px 0;
+}
+.gotop .btn_qrcode:hover {
+    background-position: -48px -48px;
+}
+.gotop .btn_phone:hover {
+    background-position: -48px -96px;
+}
+.gotop .btn_qq:hover {
+    background-position: -48px -144px;
+}
+.gotop .btn_gotop:hover {
+    background-position: -48px -192px;
+}
+.gotop .qrcode_show {
+    display: none;
+    width: 208px;
+    height:208px;
+    background: url(img/ui_gotop_bg.png) no-repeat -96px 0;
+    position: absolute;
+    top: -10px;
+    left: -195px;
+}
+.gotop .phone_show {
+    display: none;
+    width: 208px;
+    height:208px;
+    background: url(img/ui_gotop_bg.png) no-repeat -304px 0;
+    position: absolute;
+    top: -10px;
+    left: -195px;
+}
+.gotop a p {
+    display: block;
+    position: absolute;
+    height: 47px;
+    line-height: 47px;
+    background-color: #e6292f;
+    color: #fff;
+    top: 0px;
+    right: 47px;
+    white-space: nowrap;
+    text-align: center;
+    width: 0;
+    padding: 0;
+    background: url(img/ui_gotop_bg.png) no-repeat -96px -226px;
+    overflow: hidden;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    transition: 0.25s;
+}
+.gotop a:hover p {
+    width:80px; 
+    padding-right:6px;
+}
+
+
+
+
+#hm_t_undefined {
+    display: none!important;
+}

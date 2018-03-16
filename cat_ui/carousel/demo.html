@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="carousel.css">
+</head>
+<style>
+    body, img, ul, li, p, a, button {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+</style>
+<body>
+<p>默认设置轮播滚动,可以设置方向,从左向右,从右向左,从上向下,从下向上滚动</p>
+<!--/ 轮播广告-->
+<div id="demo" class="carousel">
+    <ul class="items">
+        <!--全屏轮播,需要写成背景-->
+        <li link="http://www.baidu.com" style="background:url('img/carousel_img01.jpg')"><b title="这里是测试标题一"></b></li>
+        <li link="http://www.qq.com" style="background:url('img/carousel_img02.jpg')"><b title="这里是测试标题二"></b></li>
+        <li link="http://www.sina.com" style="background:url('img/carousel_img03.jpg')"><b title="这里是测试标题三"></b></li>
+        <li link="http://www.163.com" style="background:url('img/carousel_img04.jpg')"><b title="这里是测试标题四"></b></li>
+    </ul>
+</div>
+<!-- 轮播广告 / -->
+
+<p>高度,宽度,自定义</p>
+<!--/ 轮播广告-->
+<div id="demo2" class="carousel">
+    <ul class="items">
+        <li style="background:url('img/carousel_img01.jpg')"><b href="###" title="这里是测试标题一"></b></li>
+        <li style="background:url('img/carousel_img02.jpg')"><b href="###" title="这里是测试标题二"></b></li>
+        <li style="background:url('img/carousel_img03.jpg')"><b href="###" title="这里是测试标题三"></b></li>
+        <li style="background:url('img/carousel_img04.jpg')"><b href="###" title="这里是测试标题四"></b></li>
+    </ul>
+</div>
+<!-- 轮播广告 / -->
+
+<p>隐藏文字部分</p>
+<!--/ 轮播广告-->
+<div id="demo3" class="carousel">
+    <ul class="items">
+        <li style="background:url('img/carousel_img01.jpg')"><b href="###" title="这里是测试标题一"></b></li>
+        <li style="background:url('img/carousel_img02.jpg')"><b href="###" title="这里是测试标题二"></b></li>
+        <li style="background:url('img/carousel_img03.jpg')"><b href="###" title="这里是测试标题三"></b></li>
+        <li style="background:url('img/carousel_img04.jpg')"><b href="###" title="这里是测试标题四"></b></li>
+    </ul>
+</div>
+<!-- 轮播广告 / -->
+
+<p>设置切换按钮的位置,设置从第三张图开始滚动,设置按钮大小</p>
+<!--/ 轮播广告-->
+<div id="demo4" class="carousel">
+    <ul class="items">
+        <li style="background:url('img/carousel_img01.jpg')"><b href="###" title="这里是测试标题一"></b></li>
+        <li style="background:url('img/carousel_img02.jpg')"><b href="###" title="这里是测试标题二"></b></li>
+        <li style="background:url('img/carousel_img03.jpg')"><b href="###" title="这里是测试标题三"></b></li>
+        <li style="background:url('img/carousel_img04.jpg')"><b href="###" title="这里是测试标题四"></b></li>
+    </ul>
+</div>
+<!-- 轮播广告 / -->
+
+<p>方形按钮,点击切换</p>
+<!--/ 轮播广告-->
+<div id="demo5" class="carousel">
+    <ul class="items">
+        <li style="background:url('img/carousel_img01.jpg')"><b href="###" title="这里是测试标题一"></b></li>
+        <li style="background:url('img/carousel_img02.jpg')"><b href="###" title="这里是测试标题二"></b></li>
+        <li style="background:url('img/carousel_img03.jpg')"><b href="###" title="这里是测试标题三"></b></li>
+        <li style="background:url('img/carousel_img04.jpg')"><b href="###" title="这里是测试标题四"></b></li>
+    </ul>
+</div>
+<!-- 轮播广告 / -->
+
+<p>隐藏切换按钮</p>
+<!--/ 轮播广告-->
+<div id="demo6" class="carousel">
+    <ul class="items">
+        <li style="background:url('img/carousel_img01.jpg')"><b href="###" title="这里是测试标题一"></b></li>
+        <li style="background:url('img/carousel_img02.jpg')"><b href="###" title="这里是测试标题二"></b></li>
+        <li style="background:url('img/carousel_img03.jpg')"><b href="###" title="这里是测试标题三"></b></li>
+        <li style="background:url('img/carousel_img04.jpg')"><b href="###" title="这里是测试标题四"></b></li>
+    </ul>
+</div>
+<!-- 轮播广告 / -->
+
+<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+<script src="carousel.js"></script>
+<script>
+    $(function(){
+        $('#demo').carousel({
+
+        });
+
+        $('#demo2').carousel({
+            width:400,
+            height:200,
+            direction:'top'
+        });
+
+        $('#demo3').carousel({
+            width:300,
+            height:100,
+            hideBottomBar:true,
+            direction:'right'
+        });
+
+        $('#demo4').carousel({
+            width:600,
+            height:150,
+            hideBottomBar:true,
+            direction:'bottom',
+            clickBarPosition:270,
+            startIndex : 3,
+            clickBarSize : 9,
+        });
+
+        $('#demo5').carousel({
+            width:600,
+            height:150,
+            hideBottomBar:true,
+            clickBarPosition:520,
+            startIndex : 2,
+            clickBarSize : 12,
+            clickBarRadius:0,
+            eventType:"click"
+        });
+
+        $('#demo6').carousel({
+            width:400,
+            height:250,
+            hideBottomBar:true,
+            clickBarPosition:520,
+            startIndex : 3,
+            clickBarSize : 12,
+            clickBarRadius:0,
+            eventType:"click",
+            hideBottomNums:true
+        });
+    })
+</script>
+</body>
+</html>

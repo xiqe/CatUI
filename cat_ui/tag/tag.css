@@ -1,0 +1,5 @@
+/* reset */
+
+.tag {display:inline-block;height:22px;line-height:22px;margin:0 4px 8px 0;padding:0 8px;background-color:#f3f3f3;border-radius:6px;color:#666;font-size:12px;vertical-align:middle;white-space: nowrap;overflow:hidden;}
+.tag-close{padding-left:4px;font-style:normal;color:#999;cursor:pointer;}
+.tag-close:hover {color:#333;}

@@ -1,0 +1,126 @@
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.carousel ul.items {
+    position: absolute;
+    background: none;
+}
+
+.carousel ul.items li {
+    float: left;
+    cursor: pointer;
+}
+
+.carousel ul.items li b {
+    float: left;
+    line-height: normal !important;
+    padding: 0px !important;
+    border: none;  }
+
+/*.carousel ul.items li a img {*/
+    /*margin: 0px !important;*/
+    /*padding: 0px !important;*/
+    /*display: block;*/
+    /*border: none*/
+/*}*/
+
+.carousel .tips {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.carousel .tips .title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+}
+
+.carousel .tips .title b {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 50px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.carousel .tips .title b:hover {
+    text-decoration: none !important;
+
+}
+
+.carousel .nums {
+    position: absolute;
+    right: 0px;
+    bottom: 12px;
+    z-index: 99;
+}
+
+.carousel .nums b {
+    display: inline-block;
+    float: left;
+    background-color: #FFF;
+    text-indent: -99999px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.carousel .nums b.active {
+    background-color: #093;
+}
+
+.carousel button{
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    border: 0;
+    width: 40px;
+    height: 60px;
+    outline: none;
+    cursor: pointer;
+}
+
+.carousel  button.left{
+    left:0;
+}
+
+.carousel  button.right{
+    right:0;
+}
+
+.carousel  button:hover{
+    background: rgba(0,0,0,.8);
+}
+
+.carousel button a{
+    display: block;
+    text-indent: -9999px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-color: #999;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+}
+
+.carousel  button.left a{
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    margin-left: 15px;
+}
+
+.carousel  button.right a{
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    margin-left: 3px;
+}

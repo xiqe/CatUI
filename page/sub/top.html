@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>组件</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<input type="hidden" value="1" id="CatUI_nav" />
+	<input type="hidden" value="5" id="CatUI_sub_nav" />
+
+	<div class="header">
+		<script src="../js/header.js"></script>
+	</div>
+
+	<div class="main_wrapper">
+		<div class="aside_container">
+			<script src="../js/sub_list.js"></script>
+		</div>
+		<div class="main_container">
+			<div class="markdown">
+				<h1>Top 返回顶部</h1>
+				<p>可自定义的返回顶部组件。</p>
+
+				<h2>何时使用</h2>
+				<p>当页面过长，导致用户回到页面头部需要长久滚动鼠标滚轴的时候，Top组件可以很好的帮助用户改善这一操作行为。</p>
+
+				<a href="../../cat_ui/top/demo.html" target="_blank" class="btn_demo">演示 Demo</a>
+
+				<h2>Parameter</h2>
+				<table>
+					<thead>
+					<tr>
+						<th>参数</th>
+						<th>说明</th>
+						<th>默认值</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>duration</td>
+						<td>滚动速度控制</td>
+						<td>1000</td>
+					</tr>
+					<tr>
+						<td>pageHeight</td>
+						<td>距离离开顶部相应高度出现返回顶部按钮</td>
+						<td>300</td>
+					</tr>
+					<tr>
+						<td>showSuggest</td>
+						<td>是否显示意见反馈，可选参数 <code>true</code> <code>false</code></td>
+						<td>true</td>
+					</tr>
+					<tr>
+						<td>showQrcode</td>
+						<td>是否显示二维码，可选参数 <code>true</code> <code>false</code></td>
+						<td>true</td>
+					</tr>
+					<tr>
+						<td>showPhone</td>
+						<td>是否显示联系方式，可选参数 <code>true</code> <code>false</code></td>
+						<td>true</td>
+					</tr>
+					<tr>
+						<td>showQQ</td>
+						<td>是否显示在线客服，可选参数 <code>true</code> <code>false</code></td>
+						<td>true</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+	<script src="../js/common.js"></script>
+
+</body>
+</html>

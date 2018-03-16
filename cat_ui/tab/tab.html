@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>tab</title>
+  <link rel="stylesheet" href="tab.css"/>
+</head>
+
+<style>
+    * {
+        margin:0;
+        padding:0;
+    }
+    body,ul,li {
+        margin: 0;
+        padding: 0;
+    }
+
+    a{
+        text-decoration: none;
+    }
+</style>
+
+<body>
+<div class="tab_box">
+    <a href="javascript:void(0)">我创建的</a>
+    <a href="javascript:void(0)" class="on">分配给我的</a>
+    <a href="javascript:void(0)">部门汇总</a>
+</div>
+
+<div class="tab_contentBox">
+    <div class="tab_main">
+        <div class="tab_content">
+            <div class="tab1">11111111</div>
+            <div class="tab2">22222222</div>
+            <div class="tab3">33333333</div>
+        </div>
+    </div>
+</div>
+<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+<script src="tab.js"></script>
+<script>
+    var  test = new CatTab($('.tab_box'),$(".tab_content"));
+
+    test.init();
+</script>
+</body>
+</html>

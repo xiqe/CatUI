@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>steps</title>
+	<style>
+		@charset "utf-8";
+		html,
+		body,
+		div,
+		span,
+		applet,
+		object,
+		iframe,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		p,
+		blockquote,
+		pre,
+		a,
+		abbr,
+		acronym,
+		address,
+		big,
+		cite,
+		code,
+		del,
+		dfn,
+		em,
+		img,
+		ins,
+		kbd,
+		q,
+		s,
+		samp,
+		small,
+		strike,
+		strong,
+		sub,
+		sup,
+		tt,
+		var,
+		b,
+		u,
+		i,
+		center,
+		textarea,
+		dl,
+		dt,
+		dd,
+		ol,
+		ul,
+		li,
+		fieldset,
+		form,
+		label,
+		legend,
+		table,
+		caption,
+		tbody,
+		tfoot,
+		thead,
+		tr,
+		th,
+		td,
+		article,
+		aside,
+		canvas,
+		details,
+		embed,
+		figure,
+		figcaption,
+		footer,
+		header,
+		hgroup,
+		menu,
+		nav,
+		output,
+		ruby,
+		section,
+		summary,
+		time,
+		mark,
+		audio,
+		video,
+		hr {
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+		body {
+			font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+			font-size: 12px;
+			color: #333333;
+			background-color: #fff;
+		}
+		ul {
+			list-style: none;
+		}
+	</style>
+	<link rel="stylesheet" href="steps.css"/>
+	
+</head>
+<body>
+	<div id="step_one"></div>
+
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+	<div id="step_two"></div>
+
+	<br/><br/>
+
+	<a href="javascript:void(0)" class="btn_prev">上一步</a><br/>
+	<a href="javascript:void(0)" class="btn_next">下一步</a><br/>
+	<a href="javascript:void(0)" class="btn_set">设置到第二步</a>
+
+	<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+	<script src="steps.js"></script>
+
+	<script>
+		$(function(){
+			var stepOne = new CatSteps($("#step_one"),{
+				widths: 880,
+				current: 2,
+				args: ['第一步','第二步','第三步']
+			});
+			stepOne.init();
+
+			var stepTwo = new CatSteps($("#step_two"),{
+				widths: 800,
+				current: 3,
+				type: 1,
+				args: ['提交','审核中','进行中','通过']
+			});
+			stepTwo.init();
+
+			$('.btn_prev').click(function(){
+				stepTwo.prevStep();
+			})
+			$('.btn_next').click(function(){
+				stepTwo.nextStep();
+			})
+			$('.btn_set').click(function(){
+				stepTwo.setStep(2);
+			})
+		})
+	</script>
+
+</body>
+</html>

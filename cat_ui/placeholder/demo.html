@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>placeholder</title>
+	
+</head>
+<body>
+	<a href="javascript:void(0)" class="btn">改变dom</a>
+	<div class="dom">
+		<p>占位</p>
+	</div>
+	<input type="text" placeholder="第一个input:text">
+	<input type="password" placeholder="第一个input:password">
+	<input type="text" placeholder="第二个input:text">
+	<input type="password" placeholder="第二个input:password">
+	<textarea cols="30" rows="10" placeholder="这是文本框提示"></textarea>
+	
+	<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+	<script src="placeholder.js"></script>
+
+	<script>
+		$(function(){
+			$('input,textarea').placeholder();
+			$('.btn').click(function(){
+				var _dom = '<p>占位</p>';
+				$('.dom').append(_dom);
+				$('input,textarea').placeholder();
+			})
+		})
+	</script>
+
+</body>
+</html>

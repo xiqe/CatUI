@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>collapse</title>
+	<link rel="stylesheet" href="collapse.css"/>
+	<style>
+		/* reset */
+		*{margin:0;padding:0;}
+		ul,ol{list-style:none}
+	</style>
+</head>
+<body>
+	<ul id="collapse" class="collapse"></ul>
+
+	<ul id="collapse2" class="collapse"></ul>
+
+
+
+
+	<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+	<script src="collapse.js"></script>
+
+	<script>
+		var  test = new CatCollapse($('#collapse'),{
+			templ: [
+				{ status: '', title: '1', content: 'j' },
+				{ status: 'open', title: '2', content: 'k' },
+				{ status: '', title: '3', content: 'l' }
+			]
+		})
+		test.init();
+
+		var  test2 = new CatCollapse($('#collapse2'),{
+			type:'multi',
+			templ: [
+				{ status: 'open', title: '1', content: '<div class="box"><p>123</p><p>456</p></div>' },
+				{ status: 'open', title: '2', content: '<div class="box"><p>789</p><p>abc</p></div>' },
+				{ status: '', title: '3', content: '<div class="box"><p>efg</p><p>hijk</p></div>' }
+			]
+		})
+		test2.init();
+	</script>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>tag</title>
+  <link rel="stylesheet" href="tag.css"/>
+</head>
+<body>
+<div class="tagbox">
+
+</div>
+
+<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+<script src="tag.js"></script>
+
+<script>
+  $('.tagbox').tag([
+      {
+        title: '标题1',
+        closable: true,
+        callback: function (tag) {
+            console.log('被关闭的是: ', tag);
+        }
+      },
+      {
+        title: '标题2',
+        closable: true,
+        callback: function (tag) {
+          alert('被关闭的是:标题2 ');
+        }
+      },
+      { title: 'cant close me' }
+    ]);
+
+
+
+</script>
+
+
+</body>
+</html>

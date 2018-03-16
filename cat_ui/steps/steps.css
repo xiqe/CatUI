@@ -1,0 +1,107 @@
+.ui_steps {
+    overflow: hidden;
+}
+.ui_steps li {
+    float:left;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color:#999;
+    background-color: #eee;
+    position: relative;
+}
+.ui_steps li.finish {
+    color:#fff;
+    background-color: #28a3ef;
+}
+.ui_steps li.active {
+    color:#fff;
+    background-color: #5ec2ff;
+}
+.ui_steps li.last b {
+    display: none;
+}
+.ui_steps li b {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+}
+.ui_steps li .arrow {
+    border-style: solid;
+    border-width: 16px;
+    position: absolute;
+    z-index: 1;
+    border-width: 18px;
+    right: -36px;
+    top: 0px;
+}
+.ui_steps li.finish .arrow {
+    border-color: transparent transparent transparent #28a3ef;
+}
+.ui_steps li.active .arrow {
+    border-color: transparent transparent transparent #5ec2ff;
+}
+.ui_steps li .arrow {
+    border-color: transparent transparent transparent #eee;
+}
+.ui_steps li .arrow_bg {
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 24px;
+    position: absolute;
+    right: -48px;
+    top: -6px;
+    z-index: 1;
+}
+
+
+.ui_steps_round {
+    overflow: hidden;
+}
+.ui_steps_round li {
+    float:left;
+    width: 25%;
+    text-align: center;
+    color: #999;
+    position: relative;
+}
+.ui_steps_round li i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-style: normal;
+    text-align: center;
+    background-color: #eee;
+    border-radius: 100%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.ui_steps_round li b {
+    display: block;
+    height: 0;
+    border-top: 2px dotted #ccc;
+    position: absolute;
+    top: 37px;
+}
+.ui_steps_round li.last b {
+    display: none;
+}
+.ui_steps_round li.finish i {
+    background-color: #28a3ef;
+    color:#fff;
+}
+.ui_steps_round li.finish b {
+    border-top: 2px dotted #28a3ef;
+}
+.ui_steps_round li.active i {
+    background-color: #5ec2ff;
+    color:#fff;
+}
+.ui_steps_round li.active b {
+    border-top: 2px dotted #5ec2ff;
+}
+
+
+

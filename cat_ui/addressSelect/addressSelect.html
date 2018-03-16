@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>addressSelect</title>
+  <link rel="stylesheet" href="addressSelect.css"/>
+</head>
+
+<style>
+    * {
+        margin:0;
+        padding:0;
+    }
+    body {
+        font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+        font-size: 12px;
+        color: #333;
+        background-color: #fff;
+    }
+    ul li {
+        list-style: none;
+    }
+    input {
+        margin:50px 0 0 100px;
+        padding:5px;
+    }
+</style>
+
+<body>
+
+  <input id="test" type="text" />
+  <input id="test2" type="text" />
+
+<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+<script src="addressSelect.js"></script>
+
+<script>
+    var str = [
+        { "code":"1001", "area_name":"宝山区", "city_name":"上海", "recent":true},
+        { "code":"1002", "area_name":"杨浦区", "city_name":"上海", "recent":true},
+        { "code":"1003", "area_name":"东城区", "city_name":"北京", "recent":true},
+        { "code":"1004", "area_name":"朝阳区", "city_name":"北京", "recent":true},
+        { "code":"1005", "area_name":"武昌区", "city_name":"武汉", "recent":true},
+        { "code":"001", "city_name":"上海", "hot":true },
+        { "code":"003", "city_name":"无锡", "hot":true},
+        { "code":"004", "city_name":"苏州", "hot":true},
+        { "code":"005", "city_name":"常州", "hot":true},
+        { "code":"006", "city_name":"南京", "hot":true},
+        { "code":"007", "city_name":"宁波", "hot":true},
+        { "code":"001", "city_name":"上海", "initial":"S", "area":[
+            {"code":"1001", "area_name":"宝山区", "city_name":"上海", "match":"上海宝山区shanghaibaoshanqu"},
+            {"code":"1002", "area_name":"长宁区", "city_name":"上海", "match":"上海长宁区shanghaichangningqu"},
+            {"code":"1003", "area_name":"崇明县", "city_name":"上海", "match":"上海崇明县shanghaichongmingqu"},
+            {"code":"1004", "area_name":"奉贤区", "city_name":"上海", "match":"上海奉贤区shanghaifengxianqu"},
+            {"code":"1005", "area_name":"虹口区", "city_name":"上海", "match":"上海虹口区shanghaihongkouqu"},
+            {"code":"1006", "area_name":"黄埔区", "city_name":"上海", "match":"上海黄埔区shanghaihuangpuqu"},
+            {"code":"1007", "area_name":"嘉定区", "city_name":"上海", "match":"上海嘉定区shanghaijiadingqu"},
+            {"code":"1008", "area_name":"静安区", "city_name":"上海", "match":"上海静安区shanghaijinganqu"},
+            {"code":"1009", "area_name":"金山区", "city_name":"上海", "match":"上海金山区shanghaijinshanqu"},
+            {"code":"1010", "area_name":"闵行区", "city_name":"上海", "match":"上海闵行区shanghaiminhangqu"},
+            {"code":"1011", "area_name":"浦东新区", "city_name":"上海", "match":"上海浦东新区shanghaiyangpuxinqu"},
+            {"code":"1012", "area_name":"普陀区", "city_name":"上海", "match":"上海普陀区shanghaiputuoqu"},
+            {"code":"1013", "area_name":"青浦区", "city_name":"上海", "match":"上海青浦区shanghaiqingpuqu"},
+            {"code":"1014", "area_name":"松江区", "city_name":"上海", "match":"上海松江区shanghaisongjiangqu"},
+            {"code":"1015", "area_name":"徐汇区", "city_name":"上海", "match":"上海徐汇区shanghaixuhuiqu"},
+            {"code":"1016", "area_name":"杨浦区", "city_name":"上海", "match":"上海杨浦区shanghaiyangpuqu"}]
+        },
+        { "code":"002", "city_name":"北京", "initial":"B", "area":[
+            {"code":"2001", "area_name":"东城区", "city_name":"北京", "match":"北京东城区beijingdongchengqu"},
+            {"code":"2002", "area_name":"朝阳区", "city_name":"北京", "match":"北京朝阳区beijingchaoyangqu"},
+            {"code":"2003", "area_name":"丰台区", "city_name":"北京", "match":"北京丰台区beijingfengtaiqu"},
+            {"code":"2004", "area_name":"海淀区", "city_name":"北京", "match":"北京海淀区beijinghaidingqu"},
+            {"code":"2005", "area_name":"昌平区", "city_name":"北京", "match":"北京昌平区beijingchangpingqu"},
+            {"code":"2006", "area_name":"通州区", "city_name":"北京", "match":"北京通州区beijingtongzhouqu"},
+            {"code":"2007", "area_name":"宣武区", "city_name":"北京", "match":"北京宣武区beijingxuanwuqu"}]
+        },
+        { "code":"003", "city_name":"无锡", "initial":"W", "area":""},
+        { "code":"004", "city_name":"苏州", "initial":"S", "area":""},
+        { "code":"005", "city_name":"常州", "initial":"C", "area":""},
+        { "code":"006", "city_name":"南京", "initial":"N", "area":""},
+        { "code":"007", "city_name":"宁波", "initial":"N", "area":""},
+        { "code":"008", "city_name":"邯郸", "initial":"H", "area":""},
+        { "code":"009", "city_name":"安阳", "initial":"A", "area":""},
+        { "code":"010", "city_name":"合肥", "initial":"H", "area":""},
+        { "code":"011", "city_name":"大连", "initial":"D", "area":""},
+        { "code":"012", "city_name":"厦门", "initial":"X", "area":""},
+        { "code":"013", "city_name":"珠海", "initial":"Z", "area":""},
+        { "code":"014", "city_name":"乌鲁木齐", "initial":"W", "area":""},
+        { "code":"015", "city_name":"武汉", "initial":"W", "area":""},
+        { "code":"016", "city_name":"广州", "initial":"G", "area":""},
+        { "code":"017", "city_name":"重庆", "initial":"C", "area":""},
+        { "code":"018", "city_name":"泉州", "initial":"Q", "area":""},
+        { "code":"019", "city_name":"台州", "initial":"T", "area":""}
+    ];
+
+
+    $(function(){
+        $('#test').focusin(function(){
+            if($('#address1').length == 0){
+                addressSelect = new CatAddressSelect({
+                    container: $(this),
+                    data:str,
+                    targetDom:'address1',
+                    callback: function () {
+                        alert(11);
+                    }
+                });
+            }
+        })
+
+        $('#test2').focusin(function(){
+            if($('#address2').length == 0){
+                addressSelect2 = new CatAddressSelect({
+                    container: $(this),
+                    data:str,
+                    targetDom:'address2'
+                });
+            }
+        })
+    })
+
+</script>
+
+
+</body>
+</html>

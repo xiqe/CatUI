@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>countdown</title>
+</head>
+<body>
+<div class="main-wrap">
+    <div id="sec"></div>
+    <div id="sec1"></div>
+</div>
+
+<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+<script src="countDown.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var countDown=new CatCountDown($('#sec'),{
+            countDownSeconds: parseInt(15),
+            secondsOnly: true,
+            callback: function () {
+              alert(11);
+            }
+        });
+        countDown.init();
+        var countDown2=new CatCountDown($('#sec1'),{
+            countDownSeconds: '10000',
+            callback: function () {
+                alert(222);
+            }
+        });
+        countDown2.init();
+    });
+</script>
+</body>
+</html>

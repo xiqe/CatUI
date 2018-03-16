@@ -1,0 +1,92 @@
+body, img, ul, li, p, a, button {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.catTree {
+/*自己根据需求设置*/
+}
+
+.catTree li {
+    margin:0 0 0 10px;
+    padding:10px 5px 0 5px;
+    position:relative;
+    clear: both;
+}
+
+.catTree li ul{
+    clear: both;
+}
+
+
+.catTree li > i{
+    background: url('img/tree_select.png') no-repeat 0 0;
+    width:16px;
+    height: 16px;
+    background-size: 16px 32px;
+    float:left;
+    cursor: pointer;
+}
+
+.catTree li > i.check{
+    background-position: 0 -16px;
+}
+
+.catTree li::before, .catTree li::after {
+    content:'';
+    left:-20px;
+    position:absolute;
+    right:auto
+}
+/*.catTree li::before {*/
+    /*border-left:1px solid #ccc;*/
+    /*height:100%;*/
+    /*top:0;*/
+    /*left:-2px;*/
+    /*width:1px*/
+/*}*/
+/*.catTree li::after {*/
+    /*border-top:1px solid #ccc;*/
+    /*height:20px;*/
+    /*top:18px;*/
+    /*width:6px;*/
+    /*left:-1px;*/
+/*}*/
+.catTree li > s {
+    width:16px;
+    height: 16px;
+    float:left;
+    margin-right: 2px;
+}
+
+.catTree li > s.show{
+    cursor: pointer;
+    background: url('img/tree_switch.png') no-repeat 0 0;
+    background-size: 16px 32px;
+}
+
+.catTree li > s.hide{
+    cursor: pointer;
+    background: url('img/tree_switch.png') no-repeat 0 -16px;
+    background-size: 16px 32px;
+}
+
+.catTree li > a{
+    float: left;
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-left: 2px;
+}
+
+.catTree>ul>li::before, .catTree>ul>li::after {
+    border:0
+}
+.catTree li:last-child::before {
+    height:30px
+}

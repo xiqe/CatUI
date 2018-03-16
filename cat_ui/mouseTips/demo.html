@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>mouseTips</title>
+	<style>
+		body {font-size: 12px;}
+	</style>
+	
+</head>
+<body>
+	<div style="padding:20px 200px;">
+		<a href="javascript:void(0)" title="找钢网成立于2012年初，以变革钢铁流通贸易模式、助力钢铁行业转型升级为愿景，三年多来取得了爆炸式的增长，目前已成为中国遥遥领先的钢铁全产业链电商平台。"  class="right_show">right显示</a>
+
+		<br /><br /><br /><br />
+
+		<a href="javascript:void(0)" title="找钢网成立于2012年初，以变革钢铁流通贸易模式、助力钢铁行业转型升级为愿景全产业链电商平台。" class="top_show">top显示</a>
+
+		<br /><br /><br /><br />
+
+		<a href="javascript:void(0)" title="找钢网成立于2012年初，以变革钢铁流通贸易模式、助力钢铁行业转型升级为愿景全产业链电商平台。" class="bottom_show">bottom显示</a>
+
+		<br /><br /><br /><br />
+
+		<div style="width:300px; height:100px; background-color: #f1f1f1;" title="找钢网成立于2012年初，以变革钢铁流通贸易模式、助力钢铁行业转型升级为愿景全产业链电商平台。" class="left_show">left显示</div>
+	</div>
+
+	<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+	<script src="mouseTips.js"></script>
+
+	<script>
+		$(function(){
+			$('.right_show').mouseover(function(){
+				var _title = '好人好人好人好人好人好人好人好人好人好人好人好人'
+				$(this).mouseTips({
+					titleInfo:_title,
+					width:'170',
+					position:'right',
+					isType: 1
+				});
+			});
+
+			$('.left_show').mouseTips({
+				titleInfo:"左边左边左边",
+				width:'130',
+				bgColor:'#F88E8B',
+				borderColor:'#f00',
+				fontColor:'#fff'
+			});
+
+			$('.top_show').mouseTips({
+				position:'top',
+				borderColor:'#f60',
+				fontColor:'#f90'
+			});
+
+			$('.bottom_show').mouseTips({
+				position:'bottom',
+				borderColor:'#8193eb',
+				fontColor:'#317ee7'
+			});
+		})
+	</script>
+
+</body>
+</html>

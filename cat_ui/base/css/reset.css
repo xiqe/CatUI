@@ -1,0 +1,136 @@
+@charset "utf-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+textarea,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html {
+  -webkit-text-size-adjust: none;
+}
+body {
+  font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+  font-size: 12px;
+  color: #333;
+  background-color: #fff;
+}
+img {
+  outline: none;
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #c7181e;
+  text-decoration: none;
+  outline: none;
+}
+table {
+  border-collapse: collapse;
+}
+input {
+  border: 0 none;
+  vertical-align: middle;
+}
+a:hover {
+  text-decoration: underline;
+}
+.clearfix:after {
+  content: '\20';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.w1180 {
+  width: 1180px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.hide {
+  display: none;
+}

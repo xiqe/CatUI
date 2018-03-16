@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>popChoose</title>
+  <link rel="stylesheet" href="popChoose.css"/>
+</head>
+
+<style>
+  #test,#test2 {margin:50px 0 0 100px;padding:5px;}
+</style>
+
+<body>
+
+  <input id="test" type="text" placeholder="test1" />
+  <input id="test2" type="text" placeholder="test2" />
+
+<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+<script src="popChoose.js"></script>
+
+<script>
+
+var products = [
+      { "code":"001" , "name":"PC钢棒" },
+      { "code":"002" , "name":"螺纹钢" },
+      { "code":"003" , "name":"盘螺" },
+      { "code":"004" , "name":"线材" },
+      { "code":"005" , "name":"钢板" },
+      { "code":"006" , "name":"钢卷" },
+      { "code":"007" , "name":"型材" },
+      { "code":"008" , "name":"圆钢" },
+      { "code":"009" , "name":"管材" },
+      { "code":"010" , "name":"钢坯" },
+      { "code":"011" , "name":"优特钢" },
+      { "code":"012" , "name":"废金属" },
+      { "code":"013" , "name":"煤炭" },
+      { "code":"014" , "name":"炉料" },
+      { "code":"015" , "name":"木材" },
+      { "code":"016" , "name":"有色金属" },
+      { "code":"017" , "name":"金属粉末" }
+    ];
+
+
+
+      $(function(){
+
+        $('#test').focusin(function(){
+          PopChoose = new CatPopChoose({
+            container: '#test',
+            width:380,
+            data: products,
+            targetDom:'pop1',
+            callback: function () {
+                       alert('123');
+                   }
+          });
+        })
+
+        $('#test2').focusin(function(){
+          PopChoose = new CatPopChoose({
+            container: '#test2',
+            width:380,
+            data: products,
+            targetDom:'pop2'
+          });
+        })
+
+      })
+
+</script>
+
+
+</body>
+</html>

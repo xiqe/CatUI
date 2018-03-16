@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>lanternSlides</title>
+  <link rel="stylesheet" href="lanternSlides.css"/>
+</head>
+
+<style>
+    * {
+        margin:0;
+        padding:0;
+    }
+    body {
+        font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+        font-size: 12px;
+        color: #333;
+        background-color: #fff;
+    }
+</style>
+
+<body>
+
+<a href="javascript:void(0)" id="btnLook">查看幻灯片</a><br /><br />
+
+<a href="javascript:void(0)" id="btnLook2">查看幻灯片2</a>
+
+
+
+<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+<script src="lanternSlides.js"></script>
+
+<script>
+    var str = [
+        { "name":"国家级服务业标准化试点", "imgSrc":"http://img.zhaogang.com/Pictures/News/img715d77ce-c677-448f-a40b-d1d3f8b7dff2.jpg"},
+        { "name":"电子商务示范企业", "imgSrc":"http://img.zhaogang.com/Pictures/News/img4e74d8b6-b616-459f-89e5-3d3929b39277.jpg"},
+        { "name":"2015年中国创客", "imgSrc":"http://img.zhaogang.com/Pictures/News/img78b0f618-8bae-4186-93e4-0214f38f0abf.jpg"},
+        { "name":"中国好生硬最佳人气奖", "imgSrc":"http://img.zhaogang.com/Pictures/News/img715d77ce-c677-448f-a40b-d1d3f8b7dff2.jpg"},
+        { "name":"快乐女声总冠军", "imgSrc":"http://img.zhaogang.com/Pictures/News/img4e74d8b6-b616-459f-89e5-3d3929b39277.jpg"},
+        { "name":"奥运会男子100米男子自由泳男子冠军", "imgSrc":"http://img.zhaogang.com/Pictures/News/img78b0f618-8bae-4186-93e4-0214f38f0abf.jpg"},
+        { "name":"优酷土豆最佳网红", "imgSrc":"http://img.zhaogang.com/Pictures/News/img715d77ce-c677-448f-a40b-d1d3f8b7dff2.jpg"},
+        { "name":"2016找钢网最好吃的晚饭", "imgSrc":"http://img.zhaogang.com/Pictures/News/img4e74d8b6-b616-459f-89e5-3d3929b39277.jpg"},
+        { "name":"2015年中国创客", "imgSrc":"http://img.zhaogang.com/Pictures/News/img78b0f618-8bae-4186-93e4-0214f38f0abf.jpg"}
+    ];
+
+    var str2 = [
+        { "name":"测试1111111111111111", "imgSrc":"http://img.zhaogang.com/Pictures/News/img715d77ce-c677-448f-a40b-d1d3f8b7dff2.jpg"},
+        { "name":"测试2222222222", "imgSrc":"http://img.zhaogang.com/Pictures/News/img4e74d8b6-b616-459f-89e5-3d3929b39277.jpg"},
+        { "name":"测试3333333333", "imgSrc":"http://img.zhaogang.com/Pictures/News/img78b0f618-8bae-4186-93e4-0214f38f0abf.jpg"}
+    ];
+
+
+    $(function(){
+        $('#btnLook').click(function(){
+            var lantern = new CatLanternSlides({
+                data: str,
+                width: 700,
+                height: 500
+            });
+            lantern.init();
+        })
+
+        $('#btnLook2').click(function(){
+            var lantern2 = new CatLanternSlides({
+                data: str2,
+                width: 500,
+                height: 400
+            });
+            lantern2.init();
+        })
+    })
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>组件</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<input type="hidden" value="1" id="CatUI_nav" />
+	<input type="hidden" value="14" id="CatUI_sub_nav" />
+
+	<div class="header">
+		<script src="../js/header.js"></script>
+	</div>
+
+	<div class="main_wrapper">
+		<div class="aside_container">
+			<script src="../js/sub_list.js"></script>
+		</div>
+		<div class="main_container">
+			<div class="markdown">
+				<h1>NumFormat 字符串格式化</h1>
+				<p>将字符串各种格式化展现。</p>
+
+				<h2>何时使用</h2>
+				<p>需要将字符串转换为金额、百分比、时间、手机号、身份证、银行卡号等显示方式。</p>
+
+				<a href="../../cat_ui/numFormat/demo.html" target="_blank" class="btn_demo">演示 Demo</a>
+
+
+				<h2>Function</h2>
+				<table>
+					<thead>
+					<tr>
+						<th>方法</th>
+						<th>说明</th>
+						<th>参数</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>numFormat.percentageFormat()</td>
+						<td>百分比形式(％)</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>numFormat.withoutPercentageFormat()</td>
+						<td>百分比形式(无％)</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>numFormat.numberFormat()</td>
+						<td>金额(&yen;)</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>numFormat.numberFormatWithoutCurrency()</td>
+						<td>金额(无&yen;)</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>numFormat.round()</td>
+						<td>金额(无格式化)</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>numFormat.convertCurrency()</td>
+						<td>金额(汉字)</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>numFormat.secondsOfTrading()</td>
+						<td>时间(时分秒)</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>numFormat.numberFormatTenThousand()</td>
+						<td>金额(单位：万)</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>numFormat.percentageFormatWithoutZero()</td>
+						<td>百分比(进度小数位)</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>numFormat.progressFormat()</td>
+						<td>百分比(进度整数位)</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>numFormat.telFormat()</td>
+						<td>手机号(格式化)</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>numFormat.idFormat()</td>
+						<td>身份证(格式化)</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>numFormat.bankCardFormat()</td>
+						<td>银行卡号(格式化)</td>
+						<td>--</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="http://static-online.zhaogang.com/resource/build-public/base/jquery-1.7.1.js"></script>
+	<script src="../js/common.js"></script>
+
+</body>
+</html>
